@@ -1,0 +1,22 @@
+Sat Jun 29 10:14:14 2019: Completed finding interactions
+Sat Jun 29 10:14:14 2019: Generating ILP constraints
+Sat Jun 29 10:14:14 2019: Completed generating ILP constraints
+Sat Jun 29 10:14:14 2019: Generating ILP constraints
+Sat Jun 29 10:14:14 2019: Completed generating ILP constraints
+Sat Jun 29 10:14:14 2019: Generating ILP constraints
+Sat Jun 29 10:14:14 2019: Completed generating ILP constraints
+Sat Jun 29 10:14:14 2019: Generating ILP constraints
+Sat Jun 29 10:14:14 2019: Completed generating ILP constraints
+Sat Jun 29 10:14:14 2019: Generating ILP constraints
+Sat Jun 29 10:14:14 2019: Completed generating ILP constraints
+Sat Jun 29 10:14:27 2019: Completed finding interactions
+Sat Jun 29 10:14:27 2019: Generating ILP constraints
+Sat Jun 29 10:14:27 2019: Completed generating ILP constraints
+Sat Jun 29 10:14:27 2019: Generating ILP constraints
+Sat Jun 29 10:14:27 2019: Completed generating ILP constraints
+Sat Jun 29 10:14:27 2019: Generating ILP constraints
+Sat Jun 29 10:14:27 2019: Completed generating ILP constraints
+Sat Jun 29 10:14:27 2019: Generating ILP constraints
+Sat Jun 29 10:14:27 2019: Completed generating ILP constraints
+Sat Jun 29 10:14:27 2019: Generating ILP constraints
+Sat Jun 29 10:14:27 2019: Completed generating ILP constraints

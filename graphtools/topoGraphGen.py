@@ -8,6 +8,7 @@ class TopoGraphGen:
     
     def __init__(self):
         self.__topographs = list()
+        self.__topographFiles = list() 
         self.__graph = None 
         self.__graphfile = None 
         self.__writeDir = None
@@ -80,7 +81,19 @@ class TopoGraphGen:
             if len(self.__topographs) == k:
                 break
         print('%d topology graphs generated' % (len(self.__topographs))) 
+
+    def getTopoGraphFiles(self,graph,readDir=None):
+        if graph != self.__graphfile:
+            return None 
+        if self.__topographs != list():
+            # return generated topographs 
+            return self.__topographFiles
     
+        if readDir != None:
+            # TODO: trying to load from directory 
+            return None 
+        return None 
+
     def storeTopoGraph(self, writeDir):
         if len(self.__topographs) == 0:
             print('No topology graph available for storing.')
@@ -99,7 +112,7 @@ class TopoGraphGen:
             
         for i in range(len(self.__topographs)):
             outname = prefix + str(i+1)+'.dot'
-            print(outname)
+            self.__topographFiles.append(outname)
             self.__topographs[i].write(outname)
             
 if __name__ == "__main__": 
