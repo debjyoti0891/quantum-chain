@@ -17,8 +17,7 @@ Multiple subgraphs of _n_ qubits are extracted from the graph _G_. Each subgraph
 
 ### NN-circuit generation
 We use an ILP solver to optimally generate a NN-complaint circuit from the input circuit C and a topology graph _T_. Furthermore, we use _n*n_ steps for generating the NN circuit. Another interesting constraint is the mapping of the individual qubits in the circuit to the vertices in the
-topology graph _T_. We consider a few random mappings of the qubits to the vertices for generating the
-final NN-complaint circuit. 
+topology graph _T_. We consider some random mappings of the qubits to the vertices for generating multiple variants of NN-complaint circuit. 
 
 ## Tool chain usage 
 
