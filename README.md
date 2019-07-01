@@ -29,6 +29,7 @@ You need a valid installation of [Gurobi](https://www.gurobi.com/resource/starti
 ### Running instructions
 We demonstrate the usage of the tool by means of an example.
 + `sample_ckt.real` : Input quantum circuit  with 4 qubits (`a`, `b`, `c` and `d`)
+![sample_ckt.read](./docs/sample_ckt.png)
 + `qx15.gml` : Quantum computer graph with 16 qubits
    
 ``` 
