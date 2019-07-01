@@ -1,6 +1,6 @@
 from igraph import *
 from gurobipy import *
-from helper import *
+from .helper import *
 
 class OptimalMapping:
     ''' The class allows input graph to be specified in GML format.

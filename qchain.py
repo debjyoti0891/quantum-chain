@@ -1,16 +1,20 @@
 import igraph 
+import itertools
+import math
+import os
 import sys
 
 from nntools.NNMapping import NNMapping
 from nntools.RealLib import RealLib
-from graphtool.topoGraphGen import TopoGraphGen
+from graphtools.topoGraphGen import TopoGraphGen
 
 class QuantumChain:
     ''' An end to end quantum computing tool chain for mapping
     quantum circuits to quantum computers. '''
     
     def __init__(self):
-        pass
+        self.__workDir = None 
+        self.__topoDir = None 
         
     def __loadGraph(self,graphfile):
         ''' loads a topology graph '''
@@ -36,8 +40,10 @@ class QuantumChain:
             topographFiles = topoGen.getTopoGraphFiles(graph)
         return topographFiles
         
-    
-    def __setTopoDir(self, directory):
+    def setWorkDir(self,directory):
+        self.__workDir = directory 
+
+    def setTopoDir(self, directory):
         ''' Set directory to store/load extracted subgraphs'''
         self.__topoDir = directory
     
@@ -65,9 +71,14 @@ class QuantumChain:
         pass 
         ckt = RealLib()
         ckt.loadReal(qc)
+        # base name used for generated files 
+        if qc.find('/') >= 0:
+            qcname = qc[qc.rfind('/')+1:]
+        if qcname.find('.') >= 0:
+            qcname = qcname[:qcname.rfind('.')]
 
         # number of qubits
-        qubitCount = ckt.variables
+        qubitCount = len(ckt.variables)
         print('Loaded circuit %s with %d qubits' % (qc,qubitCount))
         print('Base quantum computer configuration : %d' % (graph))
 
@@ -87,11 +98,35 @@ class QuantumChain:
         else:
             # generate or load topologies
             topographs = self.__getTopographs(graph,qubitCount)
-            
-        # TODO : check how the config works!!! vertex names? 
+
         # generate the solutions 
+        sol = 0
         for topog in topographs:
-            self.__mapNN(topog, qc, qubitAssign, steps, outcirc)
+            # TODO : check how the config works!!! vertex names? 
+            if qubitCount > 4:
+                permCount = 25
+            else:
+                permCount = math.factorial(qubitCount) 
+            perms = []
+            
+            q = [i for i in rangE(qubitCount)]
+            i = 0
+            for p in itertools.permutations(q):
+                perms.append(p)
+                i = i+1
+                if i > permCount:
+                    break 
+
+            for p in perms:
+                sol = sol+1 
+                # generate the configuration file 
+                cfg = self.__workDir+qcname+'_'+str(sol)+'.cfg'
+                cfgFile = open(cfg,'w')
+                for i in range(qubitCount):
+                    cfg.write(str(p[i])+' '+str(ckt.variables[i]))
+                steps = qubitCount**2 
+                outcirc = self.__workDir+qcname+'_'+str(sol)+'.real'
+                self.__mapNN(topog, qc, cfg, steps, outcirc)
 
 
 
@@ -101,6 +136,18 @@ if __name__ == '__main__':
         print('Usage : python3 qchain.py circ.real graph.dot [k]')
         sys.exit(0)
     chain  = QuantumChain()
+    workdir = 'genfiles/'
+    topodir = 'topofiles/'
+    if not os.path.isdir(workdir):
+        print('Created work directory: %s' % (workdir))
+        os.mkdir(workdir)
+    if not os.path.isdir(topodir):
+        print('Created graph directory: %s' % (topodir))
+        os.mkdir(topodir)
+        
+    chain.setWorkDir(workdir)
+    chain.setTopoDir(topodir)
+
     if len(sys.argv) < 4:
         k = None
     else:

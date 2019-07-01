@@ -1,8 +1,8 @@
-from k_gate_optimal_mapping import *
-from RealLib import *
+from .k_gate_optimal_mapping import * 
+from .RealLib import RealLib
 import copy
 import sys
-from helper import *
+from .helper import *
 
 class NNMapping:
     

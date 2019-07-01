@@ -2816,77 +2816,77 @@ x0_a_t9 + x1_a_t9 + x2_a_t9 + x3_a_t9 = 1
 x0_c_t9 + x1_c_t9 + x2_c_t9 + x3_c_t9 = 1 
 
 \ only one edge of a node can have swap 
-\ Node : 0
+\ Node : q0
 s0_1_t0 <= 1
- \ Node : 1
+ \ Node : q1
 s0_1_t0 + s1_2_t0 <= 1
- \ Node : 2
+ \ Node : q2
 s0_1_t0 + s1_2_t0 <= 1
- \ Node : 3
+ \ Node : q3
 s0_1_t0 <= 1
- \ Node : 0
+ \ Node : q0
 s0_1_t1 <= 1
- \ Node : 1
+ \ Node : q1
 s0_1_t1 + s1_2_t1 <= 1
- \ Node : 2
+ \ Node : q2
 s0_1_t1 + s1_2_t1 <= 1
- \ Node : 3
+ \ Node : q3
 s0_1_t1 <= 1
- \ Node : 0
+ \ Node : q0
 s0_1_t2 <= 1
- \ Node : 1
+ \ Node : q1
 s0_1_t2 + s1_2_t2 <= 1
- \ Node : 2
+ \ Node : q2
 s0_1_t2 + s1_2_t2 <= 1
- \ Node : 3
+ \ Node : q3
 s0_1_t2 <= 1
- \ Node : 0
+ \ Node : q0
 s0_1_t3 <= 1
- \ Node : 1
+ \ Node : q1
 s0_1_t3 + s1_2_t3 <= 1
- \ Node : 2
+ \ Node : q2
 s0_1_t3 + s1_2_t3 <= 1
- \ Node : 3
+ \ Node : q3
 s0_1_t3 <= 1
- \ Node : 0
+ \ Node : q0
 s0_1_t4 <= 1
- \ Node : 1
+ \ Node : q1
 s0_1_t4 + s1_2_t4 <= 1
- \ Node : 2
+ \ Node : q2
 s0_1_t4 + s1_2_t4 <= 1
- \ Node : 3
+ \ Node : q3
 s0_1_t4 <= 1
- \ Node : 0
+ \ Node : q0
 s0_1_t5 <= 1
- \ Node : 1
+ \ Node : q1
 s0_1_t5 + s1_2_t5 <= 1
- \ Node : 2
+ \ Node : q2
 s0_1_t5 + s1_2_t5 <= 1
- \ Node : 3
+ \ Node : q3
 s0_1_t5 <= 1
- \ Node : 0
+ \ Node : q0
 s0_1_t6 <= 1
- \ Node : 1
+ \ Node : q1
 s0_1_t6 + s1_2_t6 <= 1
- \ Node : 2
+ \ Node : q2
 s0_1_t6 + s1_2_t6 <= 1
- \ Node : 3
+ \ Node : q3
 s0_1_t6 <= 1
- \ Node : 0
+ \ Node : q0
 s0_1_t7 <= 1
- \ Node : 1
+ \ Node : q1
 s0_1_t7 + s1_2_t7 <= 1
- \ Node : 2
+ \ Node : q2
 s0_1_t7 + s1_2_t7 <= 1
- \ Node : 3
+ \ Node : q3
 s0_1_t7 <= 1
- \ Node : 0
+ \ Node : q0
 s0_1_t8 <= 1
- \ Node : 1
+ \ Node : q1
 s0_1_t8 + s1_2_t8 <= 1
- \ Node : 2
+ \ Node : q2
 s0_1_t8 + s1_2_t8 <= 1
- \ Node : 3
+ \ Node : q3
 s0_1_t8 <= 1
  
 \ initial stating state
