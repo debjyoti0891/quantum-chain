@@ -6,7 +6,9 @@ circuit for arbitrary topologies.
 ## Tool chain workflow
 The toolchain takes two primary parameters as input 
 + Quantum circuit in real format [(Specification details)[http://www.informatik.uni-bremen.de/rev_lib/doc/docu/revlib_2_0_1.pdf]]
-+ Quantum Computer Qubit interaction graph 
++ Quantum Computer Qubit interaction graph. The [IBM](https://quantum-computing.ibm.com/) Q16 qubit interaction graph is shown below.  
+
+![Image of IBMQ16](https://github.com/debjyoti0891/quantum-chain/blob/develop/docs/qx16.png)
 
 Let’s say that the circuit C has _n_ qubits and the graph _G_ has _k_ qubits
 ### Topology extraction
@@ -21,6 +23,8 @@ final NN-complaint circuit.
 ## Tool chain usage 
 
 ### Installation
+The tool is implemented in Python3 and tested on Ubuntu 18.04.  Install the depedencies from `requirements.txt`. 
+
 You need a valid installation of [Gurobi](https://www.gurobi.com/resource/starting-with-gurobi/) along with the Python wrapper. Academic license can be obtained for free via their [website](https://www.gurobi.com/academia/academic-program-and-licenses/).
 
 ### Running instructions
