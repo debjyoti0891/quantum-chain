@@ -1,0 +1,2 @@
+gurobipy==5.0.2
+python_igraph==0.7.1.post6
