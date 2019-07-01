@@ -5,8 +5,8 @@ circuit for arbitrary topologies.
 
 ## Tool chain workflow
 The toolchain takes two primary parameters as input 
-    * Quantum circuit in real format [(Specification details)[http://www.informatik.uni-bremen.de/rev_lib/doc/docu/revlib_2_0_1.pdf]]
-    * Quantum Computer Qubit interaction graph 
+    + Quantum circuit in real format [(Specification details)[http://www.informatik.uni-bremen.de/rev_lib/doc/docu/revlib_2_0_1.pdf]]
+    + Quantum Computer Qubit interaction graph 
 
 Let’s say that the circuit C has _n_ qubits and the graph _G_ has _k_ qubits
 ### Topology extraction
