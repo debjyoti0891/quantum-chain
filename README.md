@@ -44,4 +44,10 @@ The output is written to `./genfiles/sample_ckt` folder. The name of the subfold
 + `sample_ckt_qx15_4_2_i.real`: The ith NN complaint Quantum circuit for topology graph `qx15_4_2`.
 
 
+#### Remarks
++ The ILP scales exponentially. Large benchmarks might take a long time (_read days_) to complete execution generating a single solution.
++ Usually quantum computer natively supports a set of gates (target gate library). The tool currently does not check if the input quantum circuit has other gates. Proper synthesis to target gate library must be done before invoking the tool.
++ Some of the qubit interaction graphs are directed. The ILP currently doesnt support directed graphs. 
+
+
 
