@@ -1,4 +1,4 @@
-from igraph import *
+from igraph import Graph, read
 import os
 import sys
 import random 
@@ -122,13 +122,13 @@ class TopoGraphGen:
             vertexMap = dict()
             for v in range(vertexCount):
                 vertexMap[topograph.vs[v].index] = v 
-                print(topograph.vs[v].index)
+                #print(topograph.vs[v].index)
                 outgraph.add_vertex(topograph.vs[v]['name'])
                 #outgraph.vs[v]['name'] = topograph.vs[v]['name']
-            for v in outgraph.vs:
-                print(v)
+            #for v in outgraph.vs:
+            #    print(v)
             for e in topograph.es:
-                print(vertexMap[e.source],vertexMap[e.target])
+                #print(vertexMap[e.source],vertexMap[e.target])
                 outgraph.add_edge(vertexMap[e.source],vertexMap[e.target])
 
             outgraph.write_gml(outname)

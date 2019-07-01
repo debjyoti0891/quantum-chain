@@ -1,4 +1,4 @@
-from igraph import *
+from igraph import Graph, read
 from gurobipy import *
 from .helper import *
 
