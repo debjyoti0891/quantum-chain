@@ -27,7 +27,7 @@ The tool is implemented in Python3 and tested on Ubuntu 18.04.  Install the depe
 You need a valid installation of [Gurobi](https://www.gurobi.com/resource/starting-with-gurobi/) along with the Python wrapper. Academic license can be obtained for free via their [website](https://www.gurobi.com/academia/academic-program-and-licenses/).
 
 ### Running instructions
-We demonstrate the usage of the tool by means of am example.
+We demonstrate the usage of the tool by means of an example.
 + `sample_ckt.real` : Input quantum circuit  with 4 qubits (`a`, `b`, `c` and `d`)
 + `qx15.gml` : Quantum computer graph with 16 qubits
    
