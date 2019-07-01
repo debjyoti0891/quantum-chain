@@ -1,5 +1,5 @@
 from .k_gate_optimal_mapping import * 
-from .RealLib import RealLib
+from .RealLib import RealLib, gate_summary
 import copy
 import sys
 from .helper import *

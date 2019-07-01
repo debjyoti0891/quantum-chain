@@ -29,11 +29,12 @@ class QuantumChain:
         ''' Extract _k_ subgraphs with _n_ nodes from the topology graph.
             Each subgraph ideally has a different topology '''
         topoGen = TopoGraphGen()
+        topoGen.storeTopoGraph
         topographFiles = topoGen.getTopoGraphFiles(graph, self.__topoDir)
         if topographFiles == None: 
             topoGen.loadGraph(graph) #graphfile vertices noOfGraphs
             topoGen.genTopoGraph(n,k,tries)
-            if self.__topoDir != None:
+            if self.__topoDir == None:
                 print('Error: Directory to store topology files must be specified')
                 return None 
             topoGen.storeTopoGraph(self.__topoDir)
@@ -42,10 +43,12 @@ class QuantumChain:
         
     def setWorkDir(self,directory):
         self.__workDir = directory 
+        print('Work directory set : %s' % (self.__topoDir))
 
     def setTopoDir(self, directory):
         ''' Set directory to store/load extracted subgraphs'''
         self.__topoDir = directory
+        print('Topology graph directory set : %s' % (self.__topoDir))
     
     def __loadSub(self, subfile):
         ''' loads subgraphs from a directory with details specified
@@ -64,7 +67,7 @@ class QuantumChain:
         nnmap.mapCircuit(steps,w)
         nnmap.writeNNCircuit(outcirc)         
 
-    def mapNN(self,graphfile,qc,k=None):
+    def mapNN(self,qc,graphfile,k=None):
         ''' Maps a quantum circuit on various topology subgraphs that
         can be obtained as part of the quantum computer qubit interaction 
         graph. The number of solutions can be specfied by the parameter k '''
@@ -80,7 +83,7 @@ class QuantumChain:
         # number of qubits
         qubitCount = len(ckt.variables)
         print('Loaded circuit %s with %d qubits' % (qc,qubitCount))
-        print('Base quantum computer configuration : %d' % (graph))
+        print('Base quantum computer configuration : %s' % (graphfile))
 
         steps = qubitCount**2 # take n^2 steps --- might be lower ?
 
@@ -97,8 +100,11 @@ class QuantumChain:
             print('Only single topology can be used with %d qubits' % (qubitCount))
         else:
             # generate or load topologies
-            topographs = self.__getTopographs(graph,qubitCount)
-
+            topographs = self.__getTopographs(graphfile,qubitCount)
+            if topographs == None:
+                print('Topology graph generation failed')
+                sys.exit(1)
+            print('Number of topology graphs generated %d' % (len(topographs)))
         # generate the solutions 
         sol = 0
         for topog in topographs:
@@ -109,7 +115,7 @@ class QuantumChain:
                 permCount = math.factorial(qubitCount) 
             perms = []
             
-            q = [i for i in rangE(qubitCount)]
+            q = [i for i in range(qubitCount)]
             i = 0
             for p in itertools.permutations(q):
                 perms.append(p)
@@ -123,9 +129,17 @@ class QuantumChain:
                 cfg = self.__workDir+qcname+'_'+str(sol)+'.cfg'
                 cfgFile = open(cfg,'w')
                 for i in range(qubitCount):
-                    cfg.write(str(p[i])+' '+str(ckt.variables[i]))
-                steps = qubitCount**2 
-                outcirc = self.__workDir+qcname+'_'+str(sol)+'.real'
+                    cfgFile.write(str(p[i])+' '+str(ckt.variables[i])+'\n')
+                cfgFile.close()
+
+                steps = qubitCount**2
+                if topog.find('/') >= 0: 
+                    topobase = topog[topog.rfind('/')+1:]
+                else:
+                    topobase = topog
+
+                outcirc = self.__workDir+qcname+'_'+topobase[:topobase.rfind('.')]+'_'+str(sol)+'.real'
+                # generate the actual solution
                 self.__mapNN(topog, qc, cfg, steps, outcirc)
 
 
@@ -133,19 +147,32 @@ class QuantumChain:
 if __name__ == '__main__':
     if len(sys.argv) < 3:
         print('Error : Invalid parameters.')
-        print('Usage : python3 qchain.py circ.real graph.dot [k]')
+        print('Usage : python3 qchain.py circ.real graph.gml [k]')
         sys.exit(0)
     chain  = QuantumChain()
     workdir = 'genfiles/'
-    topodir = 'topofiles/'
+    
     if not os.path.isdir(workdir):
-        print('Created work directory: %s' % (workdir))
+        print('Creating work directory: %s' % (workdir))
         os.mkdir(workdir)
+
+    circ = sys.argv[1]
+    if circ.rfind('/') >= 0:
+        base = circ[circ.rfind('/')+1:]
+    else:
+        base = circ 
+    base = base[:base.rfind('.')]+'/'
+    circdir = workdir + base 
+    if not os.path.isdir(circdir):
+        print('Creating benchmark directory: %s' % (circdir))
+        os.mkdir(circdir)
+
+    topodir = circdir + 'topofiles/'
     if not os.path.isdir(topodir):
-        print('Created graph directory: %s' % (topodir))
+        print('Creating graph directory: %s' % (topodir))
         os.mkdir(topodir)
         
-    chain.setWorkDir(workdir)
+    chain.setWorkDir(circdir)
     chain.setTopoDir(topodir)
 
     if len(sys.argv) < 4:

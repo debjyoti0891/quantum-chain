@@ -4,6 +4,10 @@ __pycache__/
 *$py.class
 # backups
 *~
+
+# tests 
+genfiles/
+ 
 # C extensions
 *.so
 

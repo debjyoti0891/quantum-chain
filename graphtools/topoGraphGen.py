@@ -15,10 +15,11 @@ class TopoGraphGen:
         self.__p = 0.7
         self.__n = None 
     
-    def loadGraph(self,graphfile, isDirected = False):
+    def loadGraph(self, graphfile, isDirected = False):
         self.__graphfile = graphfile
+
+        print('Loading graph file: %s' % (graphfile))
         self.__graph = read(graphfile)
-        print('Loaded graph file: %s' % (graphfile))
         print('#vertices : %d #edges : %d' % (len(self.__graph.vs),len(self.__graph.es)))
         
     def setEdgeProb(self, probability):
@@ -111,9 +112,26 @@ class TopoGraphGen:
         prefix = writeDir + fname +'_'+str(self.__n)+'_'
             
         for i in range(len(self.__topographs)):
-            outname = prefix + str(i+1)+'.dot'
+            outname = prefix + str(i+1)+'.gml'
             self.__topographFiles.append(outname)
-            self.__topographs[i].write(outname)
+
+            # change the vertex ids in the subgraph 
+            outgraph = Graph()
+            topograph = self.__topographs[i]
+            vertexCount = len(topograph.vs)
+            vertexMap = dict()
+            for v in range(vertexCount):
+                vertexMap[topograph.vs[v].index] = v 
+                print(topograph.vs[v].index)
+                outgraph.add_vertex(topograph.vs[v]['name'])
+                #outgraph.vs[v]['name'] = topograph.vs[v]['name']
+            for v in outgraph.vs:
+                print(v)
+            for e in topograph.es:
+                print(vertexMap[e.source],vertexMap[e.target])
+                outgraph.add_edge(vertexMap[e.source],vertexMap[e.target])
+
+            outgraph.write_gml(outname)
             
 if __name__ == "__main__": 
     if len(sys.argv) < 4:
