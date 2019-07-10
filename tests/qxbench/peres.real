@@ -1,0 +1,23 @@
+.version 1.0
+.numvars 3
+.variables a b c
+.inputs a b c
+.outputs x y z
+.begin
+u2(0,pi) a
+t2 b a
+u1(-pi/4) a
+t2 c a
+u1(pi/4) a
+t2 b a
+u1(-pi/4) a
+u1(pi/4) b
+t2 c a
+u1(pi/4) a
+u2(0,pi) a
+t2 c b
+u1(-pi/4) b
+u1(pi/4) c
+t2 c b
+t2 c b
+.end

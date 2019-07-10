@@ -1,0 +1,12 @@
+.version 1.0
+.numvars 6
+.variables a b c d e f
+.inputs a b c d e f
+.outputs u v w x y z
+.begin
+t2 b a
+t2 c b
+t2 d c
+t2 e d
+t2 f e
+.end
