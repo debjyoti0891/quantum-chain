@@ -58,9 +58,19 @@ class RealLib:
                 
                 V+ gate
                 v+2 a b 
+                
+                #CNOT 
+                t2 c d
+                
+                #IBM QX gates 
+                u2(0,pi) c
+                u1(0.785398163397448) c
                 '''
-                #get gate type
-                g_type = w[0][0]
+                #get gate type 
+                if w[0].find('(') >= 0:
+                    g_type = w[0]
+                else:
+                    g_type = w[0][0]
                 if g_type == 'v' and len(w[0]) > 1 and w[0][1] == '+':
                     g_type = 'v+'
                 
@@ -70,7 +80,7 @@ class RealLib:
             #if len(self.circuit) > 0:   
             #    print(line)
                 
-            #print(self.circuit)    
+            
             # Process the preamble of the .real file
             if w[0] == '.numvars':
                 self.numvar = int(w[1])
@@ -89,6 +99,8 @@ class RealLib:
             elif w[0] == '.begin':
                 is_gate_line = True    
         f.close()
+        #print(self.circuit)  
+        #sys.exit()      
     
     def countGate(self):
         self.gate_count = len(self.circuit)     
@@ -291,6 +303,7 @@ def compareReal(ckt1_fname, ckt2_fname,outputformat='ascii'):
             c2 = 0    
         print('%9s:%5d | %5d'% (g,c1,c2))
     
+
 if __name__=='__main__':
     if len(sys.argv) < 3:
         print('python3 RealLib inputfile outputfile')
@@ -298,6 +311,6 @@ if __name__=='__main__':
     ckt = RealLib()
     ckt.loadReal(sys.argv[1])
     ckt.computeDelay()
-    ckt.writeTex(sys.argv[2])
+    #ckt.writeTex(sys.argv[2])
     #compareReal(sys.argv[1],sys.argv[2])
     
