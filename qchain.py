@@ -160,6 +160,7 @@ class QuantumChain:
                     outckt.loadReal(outcirc)
                     outf.write(str(len(outckt.variables))+',')
                     outf.write(str(outckt.computeDelay())+',')
+                    outf.write(str(start-end),',')
                     outf.write(datetime.datetime.now().strftime("%I:%M%p on %B %d, %Y")+'\n')
 
 
