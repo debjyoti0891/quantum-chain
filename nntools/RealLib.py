@@ -144,6 +144,7 @@ class RealLib:
         self.delay = len(self.compute)
         print('Total delay:',self.delay)
         #print(self.compute)
+        return self.delay
         
             
            
@@ -171,7 +172,13 @@ class RealLib:
         of.write('.begin\n')
         for gate in self.circuit:
             #print(gate)
-            of.write(str(gate[0])+str(gate[1])+' '+(' '.join(gate[2:]))+'\n') 
+            if not ('(' in gate[0]):
+                pad = str(gate[1])
+            else:
+                pad = ''
+            of.write(str(gate[0])+pad+' '+(' '.join(gate[2:]))+'\n') 
+            
+               
         of.write('.end\n')   
             
         of.close()

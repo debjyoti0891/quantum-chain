@@ -115,7 +115,7 @@ class NNMapping:
                     config = configs[j]
                     for (loc,qbit) in config:
                         config_dict[qbit] = loc 
-                              
+                    print('config dict:',config_dict)          
                     # add gates from the original circuit
                     for gate in interactions_gate[j]:
                         # express gate in terms of the new positions
@@ -165,7 +165,7 @@ class NNMapping:
            
             fname = self.fname[slash+1:]
             outf = 'gen_files/'+fname+'_NN_'+str(self.w)+'.real'
-        #print(self.new_ckt.circuit)
+        print('NN circuit written:' , outf)
         self.new_ckt.writeReal(outf)
         
 if __name__ == '__main__':

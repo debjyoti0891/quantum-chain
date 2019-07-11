@@ -1,8 +1,10 @@
+import datetime
 import igraph 
 import itertools
 import math
 import os
 import sys
+import time
 
 from nntools.NNMapping import NNMapping
 from nntools.RealLib import RealLib
@@ -55,10 +57,12 @@ class QuantumChain:
         in the subfile ''' 
         pass  
 
-    def __mapNN(self, topologyG, qc, qubitAssign, steps, outcirc, w=1 ):
+    def __mapILPNN(self, topologyG, qc, qubitAssign, steps, outcirc, w=1 ):
         ''' maps a quantum circuit on the specified topology graph. 
         qubitAssign can be used to provide an initial mapping of the
         logical qubits to the graph vertices '''
+        if w == None:
+            w = 1
         #graph.gml circuit.real config.cfg n [w=1]
         nnmap = NNMapping(topologyG, qc)
         nnmap.loadConfig(qubitAssign)
@@ -67,11 +71,11 @@ class QuantumChain:
         nnmap.mapCircuit(steps,w)
         nnmap.writeNNCircuit(outcirc)         
 
-    def mapNN(self,qc,graphfile,k=None):
+    def mapNN(self,qc,graphfile,w=None):
         ''' Maps a quantum circuit on various topology subgraphs that
         can be obtained as part of the quantum computer qubit interaction 
         graph. The number of solutions can be specfied by the parameter k '''
-        pass 
+        
         ckt = RealLib()
         ckt.loadReal(qc)
         # base name used for generated files 
@@ -97,7 +101,9 @@ class QuantumChain:
                 % (qubitCount, vertexCount))
             return 
         elif qubitCount == vertexCount:
+            # use original graphfile as topograph - trivial case 
             print('Only single topology can be used with %d qubits' % (qubitCount))
+            topographs = [graphfile]
         else:
             # generate or load topologies
             topographs = self.__getTopographs(graphfile,qubitCount)
@@ -107,6 +113,7 @@ class QuantumChain:
             print('Number of topology graphs generated %d' % (len(topographs)))
         # generate the solutions 
         sol = 0
+        logfile = self.__workDir+qcname+'.log'
         for topog in topographs:
             # TODO : check how the config works!!! vertex names? 
             if qubitCount > 4:
@@ -140,14 +147,27 @@ class QuantumChain:
 
                 outcirc = self.__workDir+qcname+'_'+topobase[:topobase.rfind('.')]+'_'+str(sol)+'.real'
                 # generate the actual solution
-                self.__mapNN(topog, qc, cfg, steps, outcirc)
+                start = time.time()
+                self.__mapILPNN(topog, qc, cfg, steps, outcirc, w)
+                end = time.time()
+                print('Generated solution %s in %d seconds' % (outcirc, start-end))
+                
+                #print some stats to file 
+                with open(logfile, 'a') as outf:
+                    #circuit file name, variables, gates, exec time, log time 
+                    outf.write(outcirc+',')
+                    outckt = RealLib()
+                    outckt.loadReal(outcirc)
+                    outf.write(str(len(outckt.variables))+',')
+                    outf.write(str(outckt.computeDelay())+',')
+                    outf.write(datetime.datetime.now().strftime("%I:%M%p on %B %d, %Y")+'\n')
 
 
 
 if __name__ == '__main__':
     if len(sys.argv) < 3:
         print('Error : Invalid parameters.')
-        print('Usage : python3 qchain.py circ.real graph.gml [k]')
+        print('Usage : python3 qchain.py circ.real graph.gml [w]')
         sys.exit(0)
     chain  = QuantumChain()
     workdir = 'genfiles/'
@@ -161,8 +181,17 @@ if __name__ == '__main__':
         base = circ[circ.rfind('/')+1:]
     else:
         base = circ 
-    base = base[:base.rfind('.')]+'/'
-    circdir = workdir + base 
+    base = base[:base.rfind('.')]
+    
+    
+    if len(sys.argv) < 4:
+        w = None
+        w_str  = base+'/'
+    else:
+        w = int(sys.argv[3])
+        w_str = base+'_'+sys.argv[3]+'/'
+        
+    circdir = workdir + w_str 
     if not os.path.isdir(circdir):
         print('Creating benchmark directory: %s' % (circdir))
         os.mkdir(circdir)
@@ -175,9 +204,6 @@ if __name__ == '__main__':
     chain.setWorkDir(circdir)
     chain.setTopoDir(topodir)
 
-    if len(sys.argv) < 4:
-        k = None
-    else:
-        k = int(sys.argv[3])
-    chain.mapNN(sys.argv[1],sys.argv[2],k)
+    
+    chain.mapNN(sys.argv[1],sys.argv[2],w)
     
