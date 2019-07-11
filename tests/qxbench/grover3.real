@@ -1,0 +1,45 @@
+.version 1.0
+.numvars 3
+.variables a b c
+.inputs a b c
+.outputs x y z
+.begin
+u2(0,pi) a
+u2(0,pi) b
+u2(0,pi) c
+u2(0,pi) c
+t2 a c
+u2(0,pi) a
+u3(pi,0,pi) a
+u2(0,pi) c
+u2(0,pi) c
+t2 b c
+u2(0,pi) b
+u3(pi,0,pi) b
+u1(0.785398163397448) b
+u2(0,pi) c
+u2(0,pi) c
+u3(pi,0,pi) c
+t2 b c
+u1(-0.785398163397448) c
+t2 b c
+t2 b a
+u1(-0.785398163397448) a
+u1(0.785398163397448) c
+t2 a c
+u1(0.785398163397448) c
+t2 a c
+t2 b a
+u1(0.785398163397448) a
+u3(pi,0,pi) b
+u2(0,pi) b
+u1(-0.785398163397448) c
+t2 a c
+u1(-0.785398163397448) c
+t2 a c
+u3(pi,0,pi) a
+u2(0,pi) a
+u1(0.785398163397448) c
+u3(pi,0,pi) c
+u2(0,pi) c
+.end

@@ -7,7 +7,7 @@ __pycache__/
 
 # tests 
 genfiles/
- 
+nn_log.txt 
 # C extensions
 *.so
 
