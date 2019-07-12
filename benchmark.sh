@@ -3,23 +3,31 @@
 # This files runs mimd for all the benchmark files 
 # specified by the input directory
 
-# ./benchmark.sh benchDir window_size 
+# ./benchmark.sh benchDir qc_graph window_size 
 # get target directory
-if [ "$1" != "" ]; then
-    targetDir=$1
-else
-    targetDir="`pwd`/"
+if [ "$1" == "" ]; then
+    echo "Benchmark directory not specified"
+    echo "usage: ./benchmark.sh benchDir qc_graph window_size  "
+    exit 1
 fi
+
+targetDir=$1
 echo "Benchmark directory : $targetDir " >>$benchLog
 
-if [ "$2" != "" ]; then
+if [ "$2" == "" ]; then
+    echo "Quantum computer graph not specified"
+    echo "usage: ./benchmark.sh benchDir qc_graph window_size  "
+    exit 1
+fi
+
+if [ "$3" == "" ]; then
     echo "window size not specified"
-    echo "usage: ./benchmark.sh benchDir window_size "
+    echo "usage: ./benchmark.sh benchDir qc_graph window_size  "
     exit 1
 fi
 
 
-benchLog="mapper"+$2+".log"
+benchLog="mapper$3.log"
 dash="======================================================="
 dashSmall="------------------------------------------------------"
 
@@ -37,14 +45,14 @@ mkdir -p $workDir
 
 # get list of .real files in target directory
 i=0
-benchfiles="`ls -Sr ${targetDir}map*.real`"
+benchfiles="`ls -Sr ${targetDir}*.real`"
 echo $benchfiles
 
 for file1 in $benchfiles
 do
-    echo "Mapping "+$file1+" "+$2 >> $benchLog
+    echo "Mapping $file1 $2" >> $benchLog
     echo "Starting at `date`" >> $benchLog
-    python3 qchain.py $file1 $2        
+    python3 qchain.py $file1 $2 $3       
     echo "Completed at `date`" >> $benchLog
     
             
