@@ -6,11 +6,12 @@ from .helper import *
 
 class NNMapping:
     
-    def __init__(self,g_fname, ckt_fname):
+    def __init__(self,g_fname, ckt_fname, debug = False):
         self.g_fname = g_fname
         self.ckt_fname = ckt_fname
         self.new_ckt = None
         self.fname = self.g_fname[:self.g_fname.rfind('.gml')]
+        self.debug = debug
         
         
     def loadConfig(self,config_fname):
@@ -25,7 +26,7 @@ class NNMapping:
             self.config.append((int(w[0]),w[1]))
         #print('config:',self.config)
     
-    def mapCircuit(self,limit,w,time_limit=7200):
+    def mapCircuit(self,limit,w,time_limit=3600):
         config = self.config
         self.w = w
         ckt = RealLib()
@@ -73,8 +74,8 @@ class NNMapping:
                     interactions.append(interaction)
                 interactions_gate.append(interaction_gate)
                 
-            print('interactions gate: ',interactions_gate)
-            print('interactions     : ',interactions, interactions == []) 
+            if self.debug: print('interactions gate: ',interactions_gate)
+            if self.debug: print('interactions     : ',interactions, interactions == []) 
             #continue
             
             config_dict = dict()
@@ -86,15 +87,15 @@ class NNMapping:
                 
                 #print('Config:',config)
                 # config already loaded via loadConfig() method
-                mapping_obj = OptimalMapping(self.fname,self.g_fname,config) 
+                mapping_obj = OptimalMapping(self.fname,self.g_fname,config,[],self.debug) 
                 (success, result) = mapping_obj.computeMappingInt(interactions,limit,time_limit)
                 
                 if success == 1:
-                    return 'TIME_LIMIT exceeded'
+                    return None,'TIME_LIMIT exceeded'
                 elif success == 2:
-                    return 'INFEASIBLE'
+                    return None,'INFEASIBLE'
                 elif success != 0:
-                    return 'Terminated'
+                    return None,'Terminated'
                     
                 swaps  = result[0]
                 configs = result[1]
@@ -115,11 +116,11 @@ class NNMapping:
                     config = configs[j]
                     for (loc,qbit) in config:
                         config_dict[qbit] = loc 
-                    print('config dict:',config_dict)          
+                    if self.debug: print('config dict:',config_dict)          
                     # add gates from the original circuit
                     for gate in interactions_gate[j]:
                         # express gate in terms of the new positions
-                        print(gate, config_dict)
+                        if self.debug: print(gate, config_dict)
                         for k in range(2,len(gate)):
                             gate[k] = 'x'+str(config_dict[gate[k]])
                         self.new_ckt.circuit.append(gate)
@@ -128,7 +129,7 @@ class NNMapping:
                 for j in range(len(interactions_gate)):
                     for gate in interactions_gate[j]:
                         # express gate in terms of the new positions
-                        print(gate, config_dict)
+                        if self.debug: print(gate, config_dict)
                         for k in range(2,len(gate)):
                             gate[k] = 'x'+str(config_dict[gate[k]])
                         self.new_ckt.circuit.append(gate)    
@@ -154,8 +155,8 @@ class NNMapping:
         else:
             f2_gate_count = 0
         #return gate_count, f2_gate_count, delay 
-        print('new ckt:',self.new_ckt)
-        return str(self.new_ckt.gate_count)+','+str(f2_gate_count)+','+str(self.new_ckt.delay)            
+        if self.debug: print('new ckt:',self.new_ckt)
+        return self.new_ckt.delay, str(self.new_ckt.gate_count)+','+str(f2_gate_count)+','+str(self.new_ckt.delay)            
         
             
     def writeNNCircuit(self,outf=None):

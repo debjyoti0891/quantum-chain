@@ -68,8 +68,11 @@ class QuantumChain:
         nnmap.loadConfig(qubitAssign)
 
         # determine the number of steps
-        nnmap.mapCircuit(steps,w)
-        nnmap.writeNNCircuit(outcirc)         
+        res, resultStr = nnmap.mapCircuit(steps,w)
+        print('Mapping result: ', resultStr)
+        if res!= None:
+            nnmap.writeNNCircuit(outcirc)
+        return res,resultStr         
 
     def mapNN(self,qc,graphfile,w=None):
         ''' Maps a quantum circuit on various topology subgraphs that
@@ -148,19 +151,25 @@ class QuantumChain:
                 outcirc = self.__workDir+qcname+'_'+topobase[:topobase.rfind('.')]+'_'+str(sol)+'.real'
                 # generate the actual solution
                 start = time.time()
-                self.__mapILPNN(topog, qc, cfg, steps, outcirc, w)
+                res,resultStr = self.__mapILPNN(topog, qc, cfg, steps, outcirc, w)
                 end = time.time()
-                print('Generated solution %s in %d seconds' % (outcirc, start-end))
+                print('Generated solution %s in %d seconds: %s' % (outcirc, start-end, resultStr))
+                
                 
                 #print some stats to file 
                 with open(logfile, 'a') as outf:
                     #circuit file name, variables, gates, exec time, log time 
+                    
                     outf.write(outcirc+',')
-                    outckt = RealLib()
-                    outckt.loadReal(outcirc)
-                    outf.write(str(len(outckt.variables))+',')
-                    outf.write(str(outckt.computeDelay())+',')
-                    outf.write(str(start-end),',')
+                    if res!= None:
+                        outckt = RealLib()
+                        outckt.loadReal(outcirc)
+                        outf.write(str(len(outckt.variables))+',')
+                        outf.write(str(outckt.computeDelay())+',')
+                    else:
+                        outf.write(',,')
+                    outf.write('{:.2f}'.format(end-start))
+                    outf.write(','+resultStr+',')
                     outf.write(datetime.datetime.now().strftime("%I:%M%p on %B %d, %Y")+'\n')
 
 

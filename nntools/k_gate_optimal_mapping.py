@@ -8,7 +8,7 @@ class OptimalMapping:
         target mapping using the specified number of steps. '''
     
     
-    def __init__(self,fname,g_fname,config,interaction=list()):
+    def __init__(self,fname,g_fname,config,interaction=list(),debug=False):
         ''' g_fname : string -- filename of input graph in GML
             config  : list of tuples -- node to qbit mapping
             interaction : list of tuples -- qbit pairs
@@ -26,6 +26,7 @@ class OptimalMapping:
             v = self.g.vs.find(node)
             v['qbit'] = qbit
             self.qbits.append(qbit)
+        self.debug = debug 
     
     def printQbit(self):
         for v in self.g.vs:
@@ -338,7 +339,7 @@ class OptimalMapping:
             var_name = 's'+str(source)+'_'+str(target)+'_t'+str(i)
             var = model.getVarByName(var_name)
             if int(var.X) == 1:
-                print(var_name+' ')
+                if self.debug : print(var_name+' ')
                 swaps.append((str(source),str(target)))
         return swaps
    
@@ -387,16 +388,17 @@ class OptimalMapping:
             
             for v in self.g.vs:
                 vid = int(v['id'])
-                print(str(vid)+"\t",end='')
-                
-            print('\nRequired interaction:')  
-            for interaction in self.interaction:
-                
-                for (q1,q2) in interaction:
-                    print(str(q1)+','+str(q2)+'\t',end='')
-                 
-                print('\n----------------------------',end='\n')
+                if self.debug: print(str(vid)+"\t",end='')
             
+            if self.debug:    
+                print('\nRequired interaction:')  
+                for interaction in self.interaction:
+                    
+                    for (q1,q2) in interaction:
+                        print(str(q1)+','+str(q2)+'\t',end='')
+                     
+                    print('\n----------------------------',end='\n')
+                
             v_count = len(self.g.vs)
             
             print(' Location of qbit:')
@@ -415,25 +417,25 @@ class OptimalMapping:
                 for l in loc:
                     print(str(l)+'\t',end='')
                 print('',end='\n')   
-                   
-            print(' Qbit interaction:')       
-            for i in range(self.steps):    
-                # print qbit interaction in each step
-                for j in range(len(self.interaction)):
-                    interaction = self.interaction[j]
-                    print('interaction '+str(j)+': ',end='')
-                    for (q1,q2) in interaction:
-                        var = model.getVarByName('n_'+str(q1)+'_'+str(q2)+'_t'+str(i))
-                        val = int(var.X)
-                        print('n_'+str(q1)+'_'+str(q2)+'_t'+str(i)+':' +str(val)+'\t',end='')
-                    
-                    print('', end='\n')
-            for j in range(len(self.interaction)):        
-                for i in range(self.steps):  
-                    var_name =  'm_'+str(j)+'_'+str(i)
-                    var = model.getVarByName(var_name)
-                    print(var_name+':'+str(var.X)+'\t',end='')
-                print('',end='\n') 
+            if self.debug:    
+                print(' Qbit interaction:')       
+                for i in range(self.steps):    
+                    # print qbit interaction in each step
+                    for j in range(len(self.interaction)):
+                        interaction = self.interaction[j]
+                        print('interaction '+str(j)+': ',end='')
+                        for (q1,q2) in interaction:
+                            var = model.getVarByName('n_'+str(q1)+'_'+str(q2)+'_t'+str(i))
+                            val = int(var.X)
+                            print('n_'+str(q1)+'_'+str(q2)+'_t'+str(i)+':' +str(val)+'\t',end='')
+                        
+                        print('', end='\n')
+                for j in range(len(self.interaction)):        
+                    for i in range(self.steps):  
+                        var_name =  'm_'+str(j)+'_'+str(i)
+                        var = model.getVarByName(var_name)
+                        print(var_name+':'+str(var.X)+'\t',end='')
+                    print('',end='\n') 
                         
             var = model.getVarByName('delay')
             delay = int(var.X)     
@@ -481,8 +483,8 @@ class OptimalMapping:
                  
                         
                 #print('', end='\n')
-            print('Swaps :',swaps,'Last Config :',config)
-            print('Configs:',configs)
+            if self.debug: print('Swaps :',swaps,'Last Config :',config)
+            if self.debug: print('Configs:',configs)
             result = [swaps,configs,int(delay)]
             ret_val = (0,result)
         elif model.status == GRB.Status.TIME_LIMIT:
