@@ -12,7 +12,7 @@ if [ "$1" == "" ]; then
 fi
 
 targetDir=$1
-echo "Benchmark directory : $targetDir " >>$benchLog
+
 
 if [ "$2" == "" ]; then
     echo "Quantum computer graph not specified"
@@ -26,13 +26,15 @@ if [ "$3" == "" ]; then
     exit 1
 fi
 
+workDir="genfiles"
+mkdir -p $workDir
 
-benchLog="mapper$3.log"
+benchLog="${workDir}/mapper$3.log"
 dash="======================================================="
 dashSmall="------------------------------------------------------"
-
+echo "Benchmark directory : $targetDir " >>$benchLog
 # header of benchmark.log
-echo "$dash" > $benchLog
+echo "$dash" >> $benchLog
 echo "Quantum-Chain ToolSuite v1.0" >> $benchLog
 echo "Author : Debjyoti Bhattacharjee"           >> $benchLog
 echo "$dash" >> $benchLog
@@ -40,8 +42,7 @@ echo "Benchmarking started at `date`" >> $benchLog
 echo "$dashSmall" >> $benchLog
 
 
-workDir="gen_files"
-mkdir -p $workDir
+
 
 # get list of .real files in target directory
 i=0
@@ -50,9 +51,9 @@ echo $benchfiles
 
 for file1 in $benchfiles
 do
-    echo "Mapping $file1 $2" >> $benchLog
+    echo "Mapping $file1 $2 $3" >> $benchLog
     echo "Starting at `date`" >> $benchLog
-    python3 qchain.py $file1 $2 $3       
+    #python3 qchain.py $file1 $2 $3       
     echo "Completed at `date`" >> $benchLog
     
             
