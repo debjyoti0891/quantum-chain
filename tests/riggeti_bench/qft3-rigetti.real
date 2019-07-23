@@ -1,0 +1,36 @@
+.version 1.0
+.numvars 3
+.variables a b c
+.inputs a b c
+.outputs x y z
+.begin
+t2 c  b 
+RZ(-pi/2) c 
+RX(-pi/2) c 
+RZ(3*pi/4) c 
+RX(pi/2) c 
+t2 c  b 
+RZ(2.450255724820331) a 
+RX(pi/2) a 
+RZ(pi) c 
+RX(pi/2) c 
+t2 a  c 
+RX(pi/2) a 
+RZ(pi/8) a 
+RX(-pi/2) a 
+t2 a  c 
+RZ(pi) a 
+RX(pi/2) a 
+t2 b  a 
+RZ(3*pi/4) b 
+RX(-pi/2) b 
+RZ(3*pi/4) b 
+RX(pi/2) b 
+t2 b  a 
+RZ(0.29863784707073915) a 
+RX(pi/2) a 
+RZ(pi/2) a 
+RX(-pi/2) b 
+RZ(3*pi/4) b 
+RZ(-pi/8) c 
+.end

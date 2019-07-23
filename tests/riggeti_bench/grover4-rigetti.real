@@ -1,0 +1,86 @@
+.version 1.0
+.numvars 4
+.variables a b c d
+.inputs a b c d
+.outputs w x y z
+.begin
+RZ(-pi/2) c 
+RX(-pi/2) c 
+RZ(pi/2) a 
+RX(pi/2) a 
+RZ(7*pi/8) a 
+RX(-pi/2) a 
+RZ(-pi/2) d 
+RX(pi/2) d 
+t2 a  d 
+RX(pi/2) a 
+RZ(pi/8) a 
+RX(-pi/2) a 
+t2 a  d 
+t2 b  d 
+RZ(pi) a 
+RX(pi/2) a 
+RZ(-pi/2) b 
+RX(-pi/2) b 
+RZ(-7*pi/8) b 
+RX(pi/2) b 
+t2 b  a 
+RX(pi/2) b 
+RZ(-7*pi/8) b 
+RX(pi/2) b 
+t2 b  d 
+RX(pi/2) b 
+RZ(pi/8) b 
+RX(-pi/2) b 
+t2 b  a 
+RX(pi/2) c 
+t2 c  d 
+RX(-pi/2) b 
+RZ(5*pi/8) b 
+RX(pi/2) c 
+RZ(7*pi/8) c 
+RX(-pi/2) c 
+t2 c  a 
+RZ(pi/2) a 
+RX(pi/2) c 
+RZ(pi/8) c 
+RX(-pi/2) c 
+t2 d  c 
+RZ(pi) c 
+RX(pi/2) c 
+RZ(pi/8) c 
+RX(-pi/2) c 
+t2 c  b 
+RZ(pi) b 
+RX(pi/2) c 
+RZ(7*pi/8) c 
+RX(-pi/2) c 
+t2 c  d 
+RZ(pi) c 
+RX(pi/2) c 
+RZ(-pi/8) c 
+RX(pi/2) c 
+t2 c  a 
+RX(pi/2) c 
+RZ(7*pi/8) c 
+RX(-pi/2) c 
+t2 c  d 
+RZ(pi) c 
+RX(pi/2) c 
+RZ(-pi/8) c 
+RX(pi/2) c 
+t2 c  b 
+RZ(-pi/2) a 
+RX(pi/2) a 
+RZ(-pi/2) a 
+RZ(-pi/2) b 
+RX(pi/2) b 
+RZ(-pi/2) b 
+RX(-pi/2) c 
+RZ(-7*pi/8) c 
+RX(pi/2) c 
+RZ(-pi/2) c 
+RZ(-7*pi/8) d 
+RX(pi/2) d 
+RZ(-pi/2) d 
+.end
