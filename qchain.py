@@ -193,6 +193,12 @@ if __name__ == '__main__':
         base = circ 
     base = base[:base.rfind('.')]
     
+    g = sys.argv[2]
+    if '/' in g:
+        g = g[g.find('/')+1:]
+    if '.' in g:
+        g = g[:g.rfind('.')]
+    base = base + '_' + g
     
     if len(sys.argv) < 4:
         w = None
