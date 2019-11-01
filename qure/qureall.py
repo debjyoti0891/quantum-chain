@@ -23,28 +23,24 @@ def sanitize(workdir, base):
     ''' Checks the log file --> detects any inmcomplete NN circuit --> deletes that circuit'''
 
     for root, dirs, files in os.walk(workdir):
-        # print(root,'\n')
-        for file in files:
-            # filename = root + dirs + files
+
+        for file in files:        
 
             if file.endswith('.log'):
-                # print(file)
 
                 f = open(os.path.join(root, file), "r")
 
                 for line in f:
-                    # print(line)
-                    line = line.split(',')
-                    # print(line)
 
-                    # print(line.index('0'))
+                    line = line.split(',')
+
 
                     try:
                         line.index('0') # checks if there is a '0' in the line, otherwise continues
-                        # print(_index)
+
                         print(line[1:len(line)-1])
                         line1 = line[0].split('/')
-                        # print(line1)
+
                         fnm = line1[ len(line1) - 1 ]
                         nm = fnm.split('_')
                         nm = nm[ len(nm) - 1]
@@ -52,14 +48,14 @@ def sanitize(workdir, base):
                         nm = nm[0]
 
                         fnm_cfg = glob.glob( os.path.join( root, '*' + nm + '.cfg') )
-                        # print(fnm)
+
                         file_for_delete_real = os.path.join(root, fnm)
                         file_for_delete_cfg = fnm_cfg[0]
                         os.remove(file_for_delete_real)
                         os.remove(file_for_delete_cfg)
                         print("File deleted: ", fnm)
                     except:
-                        # print('NN config did not run out of time')
+
                         continue
 
     return 0
