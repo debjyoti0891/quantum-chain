@@ -1,0 +1,25 @@
+.version 1.0
+.numvars 6
+.variables a b c d e f
+.inputs a b c d e f
+.outputs u v w x y z
+.begin
+u2(0,pi) a
+u2(0,pi) b
+u2(0,pi) c
+u2(0,pi) d
+u2(0,pi) e
+u3(pi,0,pi) f
+u2(0,pi) f
+t2 a f
+u2(0,pi) a
+t2 b f
+u2(0,pi) b
+t2 c f
+u2(0,pi) c
+t2 d f
+u2(0,pi) d
+t2 e f
+u2(0,pi) e
+u2(0,pi) f
+.end
