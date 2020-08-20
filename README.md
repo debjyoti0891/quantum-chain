@@ -1,7 +1,17 @@
 # Quantum-chain
 
 A tool chain to generate nearest neighbour complaint
-circuit for arbitrary topologies.
+circuit for arbitrary topologies. Please cite the following paper if you use the tool in your work.
+```
+@inproceedings{bhattacharjee2019muqut,
+  title={MUQUT: Multi-constraint quantum circuit mapping on NISQ computers},
+  author={Bhattacharjee, Debjyoti and Saki, Abdullah Ash and Alam, Mahabubul and Chattopadhyay, Anupam and Ghosh, Swaroop},
+  booktitle={38th IEEE/ACM International Conference on Computer-Aided Design, ICCAD 2019},
+  pages={8942132},
+  year={2019},
+  organization={Institute of Electrical and Electronics Engineers Inc.}
+}
+```
 
 ## Tool chain workflow
 The toolchain takes two primary parameters as input 
