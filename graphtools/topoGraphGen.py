@@ -34,7 +34,7 @@ class TopoGraphGen:
             generated = False 
             while not generated and tries < 10:
                 vCount = len(self.__graph.vs)
-                activeList = [random.randint(1,vCount)]
+                activeList = [random.randint(0,vCount-1)]
                 addedVertices = []
                 ignore = set()
                 while activeList != list():

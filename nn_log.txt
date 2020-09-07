@@ -1,0 +1,792 @@
+Mon Sep  7 09:39:51 2020: Completed finding interactions
+Mon Sep  7 09:39:51 2020: Generating ILP constraints
+Mon Sep  7 09:39:51 2020: Completed generating ILP constraints
+Mon Sep  7 09:39:51 2020: Generating ILP constraints
+Mon Sep  7 09:39:51 2020: Completed generating ILP constraints
+Mon Sep  7 09:39:51 2020: Generating ILP constraints
+Mon Sep  7 09:39:51 2020: Completed generating ILP constraints
+Mon Sep  7 09:39:51 2020: Generating ILP constraints
+Mon Sep  7 09:39:51 2020: Completed generating ILP constraints
+Mon Sep  7 09:39:51 2020: Generating ILP constraints
+Mon Sep  7 09:39:51 2020: Completed generating ILP constraints
+Mon Sep  7 09:39:51 2020: Completed finding interactions
+Mon Sep  7 09:39:51 2020: Generating ILP constraints
+Mon Sep  7 09:39:51 2020: Completed generating ILP constraints
+Mon Sep  7 09:39:51 2020: Generating ILP constraints
+Mon Sep  7 09:39:51 2020: Completed generating ILP constraints
+Mon Sep  7 09:39:51 2020: Generating ILP constraints
+Mon Sep  7 09:39:51 2020: Completed generating ILP constraints
+Mon Sep  7 09:39:51 2020: Generating ILP constraints
+Mon Sep  7 09:39:51 2020: Completed generating ILP constraints
+Mon Sep  7 09:39:51 2020: Generating ILP constraints
+Mon Sep  7 09:39:52 2020: Completed generating ILP constraints
+Mon Sep  7 09:39:52 2020: Completed finding interactions
+Mon Sep  7 09:39:52 2020: Generating ILP constraints
+Mon Sep  7 09:39:52 2020: Completed generating ILP constraints
+Mon Sep  7 09:39:52 2020: Generating ILP constraints
+Mon Sep  7 09:39:52 2020: Completed generating ILP constraints
+Mon Sep  7 09:39:52 2020: Generating ILP constraints
+Mon Sep  7 09:39:52 2020: Completed generating ILP constraints
+Mon Sep  7 09:39:52 2020: Generating ILP constraints
+Mon Sep  7 09:39:52 2020: Completed generating ILP constraints
+Mon Sep  7 09:39:52 2020: Generating ILP constraints
+Mon Sep  7 09:39:52 2020: Completed generating ILP constraints
+Mon Sep  7 09:39:52 2020: Completed finding interactions
+Mon Sep  7 09:39:52 2020: Generating ILP constraints
+Mon Sep  7 09:39:52 2020: Completed generating ILP constraints
+Mon Sep  7 09:39:52 2020: Generating ILP constraints
+Mon Sep  7 09:39:52 2020: Completed generating ILP constraints
+Mon Sep  7 09:39:52 2020: Generating ILP constraints
+Mon Sep  7 09:39:52 2020: Completed generating ILP constraints
+Mon Sep  7 09:39:52 2020: Generating ILP constraints
+Mon Sep  7 09:39:52 2020: Completed generating ILP constraints
+Mon Sep  7 09:39:52 2020: Generating ILP constraints
+Mon Sep  7 09:39:52 2020: Completed generating ILP constraints
+Mon Sep  7 09:39:52 2020: Completed finding interactions
+Mon Sep  7 09:39:52 2020: Generating ILP constraints
+Mon Sep  7 09:39:52 2020: Completed generating ILP constraints
+Mon Sep  7 09:39:52 2020: Generating ILP constraints
+Mon Sep  7 09:39:52 2020: Completed generating ILP constraints
+Mon Sep  7 09:39:52 2020: Generating ILP constraints
+Mon Sep  7 09:39:52 2020: Completed generating ILP constraints
+Mon Sep  7 09:39:52 2020: Generating ILP constraints
+Mon Sep  7 09:39:52 2020: Completed generating ILP constraints
+Mon Sep  7 09:39:53 2020: Generating ILP constraints
+Mon Sep  7 09:39:53 2020: Completed generating ILP constraints
+Mon Sep  7 09:39:53 2020: Completed finding interactions
+Mon Sep  7 09:39:53 2020: Generating ILP constraints
+Mon Sep  7 09:39:53 2020: Completed generating ILP constraints
+Mon Sep  7 09:39:53 2020: Generating ILP constraints
+Mon Sep  7 09:39:53 2020: Completed generating ILP constraints
+Mon Sep  7 09:39:53 2020: Generating ILP constraints
+Mon Sep  7 09:39:53 2020: Completed generating ILP constraints
+Mon Sep  7 09:39:53 2020: Generating ILP constraints
+Mon Sep  7 09:39:53 2020: Completed generating ILP constraints
+Mon Sep  7 09:39:53 2020: Generating ILP constraints
+Mon Sep  7 09:39:53 2020: Completed generating ILP constraints
+Mon Sep  7 09:39:53 2020: Completed finding interactions
+Mon Sep  7 09:39:53 2020: Generating ILP constraints
+Mon Sep  7 09:39:53 2020: Completed generating ILP constraints
+Mon Sep  7 09:39:53 2020: Generating ILP constraints
+Mon Sep  7 09:39:53 2020: Completed generating ILP constraints
+Mon Sep  7 09:39:53 2020: Generating ILP constraints
+Mon Sep  7 09:39:53 2020: Completed generating ILP constraints
+Mon Sep  7 09:39:53 2020: Generating ILP constraints
+Mon Sep  7 09:39:53 2020: Completed generating ILP constraints
+Mon Sep  7 09:39:53 2020: Generating ILP constraints
+Mon Sep  7 09:39:53 2020: Completed generating ILP constraints
+Mon Sep  7 09:39:53 2020: Completed finding interactions
+Mon Sep  7 09:39:53 2020: Generating ILP constraints
+Mon Sep  7 09:39:53 2020: Completed generating ILP constraints
+Mon Sep  7 09:39:53 2020: Generating ILP constraints
+Mon Sep  7 09:39:53 2020: Completed generating ILP constraints
+Mon Sep  7 09:39:53 2020: Generating ILP constraints
+Mon Sep  7 09:39:53 2020: Completed generating ILP constraints
+Mon Sep  7 09:39:54 2020: Generating ILP constraints
+Mon Sep  7 09:39:54 2020: Completed generating ILP constraints
+Mon Sep  7 09:39:54 2020: Generating ILP constraints
+Mon Sep  7 09:39:54 2020: Completed generating ILP constraints
+Mon Sep  7 09:39:54 2020: Completed finding interactions
+Mon Sep  7 09:39:54 2020: Generating ILP constraints
+Mon Sep  7 09:39:54 2020: Completed generating ILP constraints
+Mon Sep  7 09:39:54 2020: Generating ILP constraints
+Mon Sep  7 09:39:54 2020: Completed generating ILP constraints
+Mon Sep  7 09:39:54 2020: Generating ILP constraints
+Mon Sep  7 09:39:54 2020: Completed generating ILP constraints
+Mon Sep  7 09:39:54 2020: Generating ILP constraints
+Mon Sep  7 09:39:54 2020: Completed generating ILP constraints
+Mon Sep  7 09:39:54 2020: Generating ILP constraints
+Mon Sep  7 09:39:54 2020: Completed generating ILP constraints
+Mon Sep  7 09:39:54 2020: Completed finding interactions
+Mon Sep  7 09:39:54 2020: Generating ILP constraints
+Mon Sep  7 09:39:54 2020: Completed generating ILP constraints
+Mon Sep  7 09:39:54 2020: Generating ILP constraints
+Mon Sep  7 09:39:54 2020: Completed generating ILP constraints
+Mon Sep  7 09:39:54 2020: Generating ILP constraints
+Mon Sep  7 09:39:54 2020: Completed generating ILP constraints
+Mon Sep  7 09:39:54 2020: Generating ILP constraints
+Mon Sep  7 09:39:54 2020: Completed generating ILP constraints
+Mon Sep  7 09:39:54 2020: Generating ILP constraints
+Mon Sep  7 09:39:54 2020: Completed generating ILP constraints
+Mon Sep  7 09:39:54 2020: Completed finding interactions
+Mon Sep  7 09:39:54 2020: Generating ILP constraints
+Mon Sep  7 09:39:54 2020: Completed generating ILP constraints
+Mon Sep  7 09:39:54 2020: Generating ILP constraints
+Mon Sep  7 09:39:54 2020: Completed generating ILP constraints
+Mon Sep  7 09:39:54 2020: Generating ILP constraints
+Mon Sep  7 09:39:54 2020: Completed generating ILP constraints
+Mon Sep  7 09:39:55 2020: Generating ILP constraints
+Mon Sep  7 09:39:55 2020: Completed generating ILP constraints
+Mon Sep  7 09:39:55 2020: Generating ILP constraints
+Mon Sep  7 09:39:55 2020: Completed generating ILP constraints
+Mon Sep  7 09:39:55 2020: Completed finding interactions
+Mon Sep  7 09:39:55 2020: Generating ILP constraints
+Mon Sep  7 09:39:55 2020: Completed generating ILP constraints
+Mon Sep  7 09:39:55 2020: Generating ILP constraints
+Mon Sep  7 09:39:55 2020: Completed generating ILP constraints
+Mon Sep  7 09:39:55 2020: Generating ILP constraints
+Mon Sep  7 09:39:55 2020: Completed generating ILP constraints
+Mon Sep  7 09:39:55 2020: Generating ILP constraints
+Mon Sep  7 09:39:55 2020: Completed generating ILP constraints
+Mon Sep  7 09:39:55 2020: Generating ILP constraints
+Mon Sep  7 09:39:55 2020: Completed generating ILP constraints
+Mon Sep  7 09:39:55 2020: Completed finding interactions
+Mon Sep  7 09:39:55 2020: Generating ILP constraints
+Mon Sep  7 09:39:55 2020: Completed generating ILP constraints
+Mon Sep  7 09:39:55 2020: Generating ILP constraints
+Mon Sep  7 09:39:55 2020: Completed generating ILP constraints
+Mon Sep  7 09:39:55 2020: Generating ILP constraints
+Mon Sep  7 09:39:55 2020: Completed generating ILP constraints
+Mon Sep  7 09:39:55 2020: Generating ILP constraints
+Mon Sep  7 09:39:55 2020: Completed generating ILP constraints
+Mon Sep  7 09:39:55 2020: Generating ILP constraints
+Mon Sep  7 09:39:55 2020: Completed generating ILP constraints
+Mon Sep  7 09:39:55 2020: Completed finding interactions
+Mon Sep  7 09:39:55 2020: Generating ILP constraints
+Mon Sep  7 09:39:55 2020: Completed generating ILP constraints
+Mon Sep  7 09:39:55 2020: Generating ILP constraints
+Mon Sep  7 09:39:55 2020: Completed generating ILP constraints
+Mon Sep  7 09:39:56 2020: Generating ILP constraints
+Mon Sep  7 09:39:56 2020: Completed generating ILP constraints
+Mon Sep  7 09:39:56 2020: Generating ILP constraints
+Mon Sep  7 09:39:56 2020: Completed generating ILP constraints
+Mon Sep  7 09:39:56 2020: Generating ILP constraints
+Mon Sep  7 09:39:56 2020: Completed generating ILP constraints
+Mon Sep  7 09:39:56 2020: Completed finding interactions
+Mon Sep  7 09:39:56 2020: Generating ILP constraints
+Mon Sep  7 09:39:56 2020: Completed generating ILP constraints
+Mon Sep  7 09:39:56 2020: Generating ILP constraints
+Mon Sep  7 09:39:56 2020: Completed generating ILP constraints
+Mon Sep  7 09:39:56 2020: Generating ILP constraints
+Mon Sep  7 09:39:56 2020: Completed generating ILP constraints
+Mon Sep  7 09:39:56 2020: Generating ILP constraints
+Mon Sep  7 09:39:56 2020: Completed generating ILP constraints
+Mon Sep  7 09:39:56 2020: Generating ILP constraints
+Mon Sep  7 09:39:56 2020: Completed generating ILP constraints
+Mon Sep  7 09:39:56 2020: Completed finding interactions
+Mon Sep  7 09:39:56 2020: Generating ILP constraints
+Mon Sep  7 09:39:56 2020: Completed generating ILP constraints
+Mon Sep  7 09:39:56 2020: Generating ILP constraints
+Mon Sep  7 09:39:56 2020: Completed generating ILP constraints
+Mon Sep  7 09:39:56 2020: Generating ILP constraints
+Mon Sep  7 09:39:56 2020: Completed generating ILP constraints
+Mon Sep  7 09:39:56 2020: Generating ILP constraints
+Mon Sep  7 09:39:56 2020: Completed generating ILP constraints
+Mon Sep  7 09:39:56 2020: Generating ILP constraints
+Mon Sep  7 09:39:56 2020: Completed generating ILP constraints
+Mon Sep  7 09:39:56 2020: Completed finding interactions
+Mon Sep  7 09:39:56 2020: Generating ILP constraints
+Mon Sep  7 09:39:56 2020: Completed generating ILP constraints
+Mon Sep  7 09:39:56 2020: Generating ILP constraints
+Mon Sep  7 09:39:56 2020: Completed generating ILP constraints
+Mon Sep  7 09:39:57 2020: Generating ILP constraints
+Mon Sep  7 09:39:57 2020: Completed generating ILP constraints
+Mon Sep  7 09:39:57 2020: Generating ILP constraints
+Mon Sep  7 09:39:57 2020: Completed generating ILP constraints
+Mon Sep  7 09:39:57 2020: Generating ILP constraints
+Mon Sep  7 09:39:57 2020: Completed generating ILP constraints
+Mon Sep  7 09:39:57 2020: Completed finding interactions
+Mon Sep  7 09:39:57 2020: Generating ILP constraints
+Mon Sep  7 09:39:57 2020: Completed generating ILP constraints
+Mon Sep  7 09:39:57 2020: Generating ILP constraints
+Mon Sep  7 09:39:57 2020: Completed generating ILP constraints
+Mon Sep  7 09:39:57 2020: Generating ILP constraints
+Mon Sep  7 09:39:57 2020: Completed generating ILP constraints
+Mon Sep  7 09:39:57 2020: Generating ILP constraints
+Mon Sep  7 09:39:57 2020: Completed generating ILP constraints
+Mon Sep  7 09:39:57 2020: Generating ILP constraints
+Mon Sep  7 09:39:57 2020: Completed generating ILP constraints
+Mon Sep  7 09:39:57 2020: Completed finding interactions
+Mon Sep  7 09:39:57 2020: Generating ILP constraints
+Mon Sep  7 09:39:57 2020: Completed generating ILP constraints
+Mon Sep  7 09:39:57 2020: Generating ILP constraints
+Mon Sep  7 09:39:57 2020: Completed generating ILP constraints
+Mon Sep  7 09:39:57 2020: Generating ILP constraints
+Mon Sep  7 09:39:57 2020: Completed generating ILP constraints
+Mon Sep  7 09:39:57 2020: Generating ILP constraints
+Mon Sep  7 09:39:57 2020: Completed generating ILP constraints
+Mon Sep  7 09:39:57 2020: Generating ILP constraints
+Mon Sep  7 09:39:57 2020: Completed generating ILP constraints
+Mon Sep  7 09:39:57 2020: Completed finding interactions
+Mon Sep  7 09:39:57 2020: Generating ILP constraints
+Mon Sep  7 09:39:57 2020: Completed generating ILP constraints
+Mon Sep  7 09:39:58 2020: Generating ILP constraints
+Mon Sep  7 09:39:58 2020: Completed generating ILP constraints
+Mon Sep  7 09:39:58 2020: Generating ILP constraints
+Mon Sep  7 09:39:58 2020: Completed generating ILP constraints
+Mon Sep  7 09:39:58 2020: Generating ILP constraints
+Mon Sep  7 09:39:58 2020: Completed generating ILP constraints
+Mon Sep  7 09:39:58 2020: Generating ILP constraints
+Mon Sep  7 09:39:58 2020: Completed generating ILP constraints
+Mon Sep  7 09:39:58 2020: Completed finding interactions
+Mon Sep  7 09:39:58 2020: Generating ILP constraints
+Mon Sep  7 09:39:58 2020: Completed generating ILP constraints
+Mon Sep  7 09:39:58 2020: Generating ILP constraints
+Mon Sep  7 09:39:58 2020: Completed generating ILP constraints
+Mon Sep  7 09:39:58 2020: Generating ILP constraints
+Mon Sep  7 09:39:58 2020: Completed generating ILP constraints
+Mon Sep  7 09:39:58 2020: Generating ILP constraints
+Mon Sep  7 09:39:58 2020: Completed generating ILP constraints
+Mon Sep  7 09:39:58 2020: Generating ILP constraints
+Mon Sep  7 09:39:58 2020: Completed generating ILP constraints
+Mon Sep  7 09:39:58 2020: Completed finding interactions
+Mon Sep  7 09:39:58 2020: Generating ILP constraints
+Mon Sep  7 09:39:58 2020: Completed generating ILP constraints
+Mon Sep  7 09:39:58 2020: Generating ILP constraints
+Mon Sep  7 09:39:58 2020: Completed generating ILP constraints
+Mon Sep  7 09:39:58 2020: Generating ILP constraints
+Mon Sep  7 09:39:58 2020: Completed generating ILP constraints
+Mon Sep  7 09:39:58 2020: Generating ILP constraints
+Mon Sep  7 09:39:58 2020: Completed generating ILP constraints
+Mon Sep  7 09:39:58 2020: Generating ILP constraints
+Mon Sep  7 09:39:58 2020: Completed generating ILP constraints
+Mon Sep  7 09:39:58 2020: Completed finding interactions
+Mon Sep  7 09:39:58 2020: Generating ILP constraints
+Mon Sep  7 09:39:59 2020: Completed generating ILP constraints
+Mon Sep  7 09:39:59 2020: Generating ILP constraints
+Mon Sep  7 09:39:59 2020: Completed generating ILP constraints
+Mon Sep  7 09:39:59 2020: Generating ILP constraints
+Mon Sep  7 09:39:59 2020: Completed generating ILP constraints
+Mon Sep  7 09:39:59 2020: Generating ILP constraints
+Mon Sep  7 09:39:59 2020: Completed generating ILP constraints
+Mon Sep  7 09:39:59 2020: Generating ILP constraints
+Mon Sep  7 09:39:59 2020: Completed generating ILP constraints
+Mon Sep  7 09:39:59 2020: Completed finding interactions
+Mon Sep  7 09:39:59 2020: Generating ILP constraints
+Mon Sep  7 09:39:59 2020: Completed generating ILP constraints
+Mon Sep  7 09:39:59 2020: Generating ILP constraints
+Mon Sep  7 09:39:59 2020: Completed generating ILP constraints
+Mon Sep  7 09:39:59 2020: Generating ILP constraints
+Mon Sep  7 09:39:59 2020: Completed generating ILP constraints
+Mon Sep  7 09:39:59 2020: Generating ILP constraints
+Mon Sep  7 09:39:59 2020: Completed generating ILP constraints
+Mon Sep  7 09:39:59 2020: Generating ILP constraints
+Mon Sep  7 09:39:59 2020: Completed generating ILP constraints
+Mon Sep  7 09:39:59 2020: Completed finding interactions
+Mon Sep  7 09:39:59 2020: Generating ILP constraints
+Mon Sep  7 09:39:59 2020: Completed generating ILP constraints
+Mon Sep  7 09:39:59 2020: Generating ILP constraints
+Mon Sep  7 09:39:59 2020: Completed generating ILP constraints
+Mon Sep  7 09:39:59 2020: Generating ILP constraints
+Mon Sep  7 09:39:59 2020: Completed generating ILP constraints
+Mon Sep  7 09:39:59 2020: Generating ILP constraints
+Mon Sep  7 09:39:59 2020: Completed generating ILP constraints
+Mon Sep  7 09:39:59 2020: Generating ILP constraints
+Mon Sep  7 09:39:59 2020: Completed generating ILP constraints
+Mon Sep  7 09:40:00 2020: Completed finding interactions
+Mon Sep  7 09:40:00 2020: Generating ILP constraints
+Mon Sep  7 09:40:00 2020: Completed generating ILP constraints
+Mon Sep  7 09:40:00 2020: Generating ILP constraints
+Mon Sep  7 09:40:00 2020: Completed generating ILP constraints
+Mon Sep  7 09:40:00 2020: Generating ILP constraints
+Mon Sep  7 09:40:00 2020: Completed generating ILP constraints
+Mon Sep  7 09:40:00 2020: Generating ILP constraints
+Mon Sep  7 09:40:00 2020: Completed generating ILP constraints
+Mon Sep  7 09:40:00 2020: Generating ILP constraints
+Mon Sep  7 09:40:00 2020: Completed generating ILP constraints
+Mon Sep  7 09:40:00 2020: Completed finding interactions
+Mon Sep  7 09:40:00 2020: Generating ILP constraints
+Mon Sep  7 09:40:00 2020: Completed generating ILP constraints
+Mon Sep  7 09:40:00 2020: Generating ILP constraints
+Mon Sep  7 09:40:00 2020: Completed generating ILP constraints
+Mon Sep  7 09:40:00 2020: Generating ILP constraints
+Mon Sep  7 09:40:00 2020: Completed generating ILP constraints
+Mon Sep  7 09:40:00 2020: Generating ILP constraints
+Mon Sep  7 09:40:00 2020: Completed generating ILP constraints
+Mon Sep  7 09:40:00 2020: Generating ILP constraints
+Mon Sep  7 09:40:00 2020: Completed generating ILP constraints
+Mon Sep  7 09:40:00 2020: Completed finding interactions
+Mon Sep  7 09:40:00 2020: Generating ILP constraints
+Mon Sep  7 09:40:00 2020: Completed generating ILP constraints
+Mon Sep  7 09:40:00 2020: Generating ILP constraints
+Mon Sep  7 09:40:00 2020: Completed generating ILP constraints
+Mon Sep  7 09:40:00 2020: Generating ILP constraints
+Mon Sep  7 09:40:00 2020: Completed generating ILP constraints
+Mon Sep  7 09:40:00 2020: Generating ILP constraints
+Mon Sep  7 09:40:00 2020: Completed generating ILP constraints
+Mon Sep  7 09:40:00 2020: Generating ILP constraints
+Mon Sep  7 09:40:00 2020: Completed generating ILP constraints
+Mon Sep  7 09:40:01 2020: Completed finding interactions
+Mon Sep  7 09:40:01 2020: Generating ILP constraints
+Mon Sep  7 09:40:01 2020: Completed generating ILP constraints
+Mon Sep  7 09:40:01 2020: Generating ILP constraints
+Mon Sep  7 09:40:01 2020: Completed generating ILP constraints
+Mon Sep  7 09:40:01 2020: Generating ILP constraints
+Mon Sep  7 09:40:01 2020: Completed generating ILP constraints
+Mon Sep  7 09:40:01 2020: Generating ILP constraints
+Mon Sep  7 09:40:01 2020: Completed generating ILP constraints
+Mon Sep  7 09:40:01 2020: Generating ILP constraints
+Mon Sep  7 09:40:01 2020: Completed generating ILP constraints
+Mon Sep  7 09:40:01 2020: Completed finding interactions
+Mon Sep  7 09:40:01 2020: Generating ILP constraints
+Mon Sep  7 09:40:01 2020: Completed generating ILP constraints
+Mon Sep  7 09:40:01 2020: Generating ILP constraints
+Mon Sep  7 09:40:01 2020: Completed generating ILP constraints
+Mon Sep  7 09:40:01 2020: Generating ILP constraints
+Mon Sep  7 09:40:01 2020: Completed generating ILP constraints
+Mon Sep  7 09:40:01 2020: Generating ILP constraints
+Mon Sep  7 09:40:01 2020: Completed generating ILP constraints
+Mon Sep  7 09:40:01 2020: Generating ILP constraints
+Mon Sep  7 09:40:01 2020: Completed generating ILP constraints
+Mon Sep  7 09:40:01 2020: Completed finding interactions
+Mon Sep  7 09:40:01 2020: Generating ILP constraints
+Mon Sep  7 09:40:01 2020: Completed generating ILP constraints
+Mon Sep  7 09:40:01 2020: Generating ILP constraints
+Mon Sep  7 09:40:01 2020: Completed generating ILP constraints
+Mon Sep  7 09:40:01 2020: Generating ILP constraints
+Mon Sep  7 09:40:01 2020: Completed generating ILP constraints
+Mon Sep  7 09:40:01 2020: Generating ILP constraints
+Mon Sep  7 09:40:01 2020: Completed generating ILP constraints
+Mon Sep  7 09:40:01 2020: Generating ILP constraints
+Mon Sep  7 09:40:01 2020: Completed generating ILP constraints
+Mon Sep  7 09:40:02 2020: Completed finding interactions
+Mon Sep  7 09:40:02 2020: Generating ILP constraints
+Mon Sep  7 09:40:02 2020: Completed generating ILP constraints
+Mon Sep  7 09:40:02 2020: Generating ILP constraints
+Mon Sep  7 09:40:02 2020: Completed generating ILP constraints
+Mon Sep  7 09:40:02 2020: Generating ILP constraints
+Mon Sep  7 09:40:02 2020: Completed generating ILP constraints
+Mon Sep  7 09:40:02 2020: Generating ILP constraints
+Mon Sep  7 09:40:02 2020: Completed generating ILP constraints
+Mon Sep  7 09:40:02 2020: Generating ILP constraints
+Mon Sep  7 09:40:02 2020: Completed generating ILP constraints
+Mon Sep  7 09:40:02 2020: Completed finding interactions
+Mon Sep  7 09:40:02 2020: Generating ILP constraints
+Mon Sep  7 09:40:02 2020: Completed generating ILP constraints
+Mon Sep  7 09:40:02 2020: Generating ILP constraints
+Mon Sep  7 09:40:02 2020: Completed generating ILP constraints
+Mon Sep  7 09:40:02 2020: Generating ILP constraints
+Mon Sep  7 09:40:02 2020: Completed generating ILP constraints
+Mon Sep  7 09:40:02 2020: Generating ILP constraints
+Mon Sep  7 09:40:02 2020: Completed generating ILP constraints
+Mon Sep  7 09:40:02 2020: Generating ILP constraints
+Mon Sep  7 09:40:02 2020: Completed generating ILP constraints
+Mon Sep  7 09:40:02 2020: Completed finding interactions
+Mon Sep  7 09:40:02 2020: Generating ILP constraints
+Mon Sep  7 09:40:02 2020: Completed generating ILP constraints
+Mon Sep  7 09:40:02 2020: Generating ILP constraints
+Mon Sep  7 09:40:02 2020: Completed generating ILP constraints
+Mon Sep  7 09:40:02 2020: Generating ILP constraints
+Mon Sep  7 09:40:02 2020: Completed generating ILP constraints
+Mon Sep  7 09:40:02 2020: Generating ILP constraints
+Mon Sep  7 09:40:02 2020: Completed generating ILP constraints
+Mon Sep  7 09:40:02 2020: Generating ILP constraints
+Mon Sep  7 09:40:02 2020: Completed generating ILP constraints
+Mon Sep  7 09:40:03 2020: Completed finding interactions
+Mon Sep  7 09:40:03 2020: Generating ILP constraints
+Mon Sep  7 09:40:03 2020: Completed generating ILP constraints
+Mon Sep  7 09:40:03 2020: Generating ILP constraints
+Mon Sep  7 09:40:03 2020: Completed generating ILP constraints
+Mon Sep  7 09:40:03 2020: Generating ILP constraints
+Mon Sep  7 09:40:03 2020: Completed generating ILP constraints
+Mon Sep  7 09:40:03 2020: Generating ILP constraints
+Mon Sep  7 09:40:03 2020: Completed generating ILP constraints
+Mon Sep  7 09:40:03 2020: Generating ILP constraints
+Mon Sep  7 09:40:03 2020: Completed generating ILP constraints
+Mon Sep  7 09:40:03 2020: Completed finding interactions
+Mon Sep  7 09:40:03 2020: Generating ILP constraints
+Mon Sep  7 09:40:03 2020: Completed generating ILP constraints
+Mon Sep  7 09:40:03 2020: Generating ILP constraints
+Mon Sep  7 09:40:03 2020: Completed generating ILP constraints
+Mon Sep  7 09:40:03 2020: Generating ILP constraints
+Mon Sep  7 09:40:03 2020: Completed generating ILP constraints
+Mon Sep  7 09:40:03 2020: Generating ILP constraints
+Mon Sep  7 09:40:03 2020: Completed generating ILP constraints
+Mon Sep  7 09:40:03 2020: Generating ILP constraints
+Mon Sep  7 09:40:03 2020: Completed generating ILP constraints
+Mon Sep  7 09:40:03 2020: Completed finding interactions
+Mon Sep  7 09:40:03 2020: Generating ILP constraints
+Mon Sep  7 09:40:03 2020: Completed generating ILP constraints
+Mon Sep  7 09:40:03 2020: Generating ILP constraints
+Mon Sep  7 09:40:03 2020: Completed generating ILP constraints
+Mon Sep  7 09:40:03 2020: Generating ILP constraints
+Mon Sep  7 09:40:03 2020: Completed generating ILP constraints
+Mon Sep  7 09:40:03 2020: Generating ILP constraints
+Mon Sep  7 09:40:03 2020: Completed generating ILP constraints
+Mon Sep  7 09:40:03 2020: Generating ILP constraints
+Mon Sep  7 09:40:03 2020: Completed generating ILP constraints
+Mon Sep  7 09:40:04 2020: Completed finding interactions
+Mon Sep  7 09:40:04 2020: Generating ILP constraints
+Mon Sep  7 09:40:04 2020: Completed generating ILP constraints
+Mon Sep  7 09:40:04 2020: Generating ILP constraints
+Mon Sep  7 09:40:04 2020: Completed generating ILP constraints
+Mon Sep  7 09:40:04 2020: Generating ILP constraints
+Mon Sep  7 09:40:04 2020: Completed generating ILP constraints
+Mon Sep  7 09:40:04 2020: Generating ILP constraints
+Mon Sep  7 09:40:04 2020: Completed generating ILP constraints
+Mon Sep  7 09:40:04 2020: Generating ILP constraints
+Mon Sep  7 09:40:04 2020: Completed generating ILP constraints
+Mon Sep  7 09:40:04 2020: Completed finding interactions
+Mon Sep  7 09:40:04 2020: Generating ILP constraints
+Mon Sep  7 09:40:04 2020: Completed generating ILP constraints
+Mon Sep  7 09:40:04 2020: Generating ILP constraints
+Mon Sep  7 09:40:04 2020: Completed generating ILP constraints
+Mon Sep  7 09:40:04 2020: Generating ILP constraints
+Mon Sep  7 09:40:04 2020: Completed generating ILP constraints
+Mon Sep  7 09:40:04 2020: Generating ILP constraints
+Mon Sep  7 09:40:04 2020: Completed generating ILP constraints
+Mon Sep  7 09:40:04 2020: Generating ILP constraints
+Mon Sep  7 09:40:04 2020: Completed generating ILP constraints
+Mon Sep  7 09:40:04 2020: Completed finding interactions
+Mon Sep  7 09:40:04 2020: Generating ILP constraints
+Mon Sep  7 09:40:04 2020: Completed generating ILP constraints
+Mon Sep  7 09:40:04 2020: Generating ILP constraints
+Mon Sep  7 09:40:04 2020: Completed generating ILP constraints
+Mon Sep  7 09:40:04 2020: Generating ILP constraints
+Mon Sep  7 09:40:04 2020: Completed generating ILP constraints
+Mon Sep  7 09:40:04 2020: Generating ILP constraints
+Mon Sep  7 09:40:04 2020: Completed generating ILP constraints
+Mon Sep  7 09:40:04 2020: Generating ILP constraints
+Mon Sep  7 09:40:04 2020: Completed generating ILP constraints
+Mon Sep  7 09:40:05 2020: Completed finding interactions
+Mon Sep  7 09:40:05 2020: Generating ILP constraints
+Mon Sep  7 09:40:05 2020: Completed generating ILP constraints
+Mon Sep  7 09:40:05 2020: Generating ILP constraints
+Mon Sep  7 09:40:05 2020: Completed generating ILP constraints
+Mon Sep  7 09:40:05 2020: Generating ILP constraints
+Mon Sep  7 09:40:05 2020: Completed generating ILP constraints
+Mon Sep  7 09:40:05 2020: Generating ILP constraints
+Mon Sep  7 09:40:05 2020: Completed generating ILP constraints
+Mon Sep  7 09:40:05 2020: Generating ILP constraints
+Mon Sep  7 09:40:05 2020: Completed generating ILP constraints
+Mon Sep  7 09:40:05 2020: Completed finding interactions
+Mon Sep  7 09:40:05 2020: Generating ILP constraints
+Mon Sep  7 09:40:05 2020: Completed generating ILP constraints
+Mon Sep  7 09:40:05 2020: Generating ILP constraints
+Mon Sep  7 09:40:05 2020: Completed generating ILP constraints
+Mon Sep  7 09:40:05 2020: Generating ILP constraints
+Mon Sep  7 09:40:05 2020: Completed generating ILP constraints
+Mon Sep  7 09:40:05 2020: Generating ILP constraints
+Mon Sep  7 09:40:05 2020: Completed generating ILP constraints
+Mon Sep  7 09:40:05 2020: Generating ILP constraints
+Mon Sep  7 09:40:05 2020: Completed generating ILP constraints
+Mon Sep  7 09:40:05 2020: Completed finding interactions
+Mon Sep  7 09:40:05 2020: Generating ILP constraints
+Mon Sep  7 09:40:05 2020: Completed generating ILP constraints
+Mon Sep  7 09:40:05 2020: Generating ILP constraints
+Mon Sep  7 09:40:05 2020: Completed generating ILP constraints
+Mon Sep  7 09:40:05 2020: Generating ILP constraints
+Mon Sep  7 09:40:05 2020: Completed generating ILP constraints
+Mon Sep  7 09:40:05 2020: Generating ILP constraints
+Mon Sep  7 09:40:05 2020: Completed generating ILP constraints
+Mon Sep  7 09:40:05 2020: Generating ILP constraints
+Mon Sep  7 09:40:06 2020: Completed generating ILP constraints
+Mon Sep  7 09:40:06 2020: Completed finding interactions
+Mon Sep  7 09:40:06 2020: Generating ILP constraints
+Mon Sep  7 09:40:06 2020: Completed generating ILP constraints
+Mon Sep  7 09:40:06 2020: Generating ILP constraints
+Mon Sep  7 09:40:06 2020: Completed generating ILP constraints
+Mon Sep  7 09:40:06 2020: Generating ILP constraints
+Mon Sep  7 09:40:06 2020: Completed generating ILP constraints
+Mon Sep  7 09:40:06 2020: Generating ILP constraints
+Mon Sep  7 09:40:06 2020: Completed generating ILP constraints
+Mon Sep  7 09:40:06 2020: Generating ILP constraints
+Mon Sep  7 09:40:06 2020: Completed generating ILP constraints
+Mon Sep  7 09:40:06 2020: Completed finding interactions
+Mon Sep  7 09:40:06 2020: Generating ILP constraints
+Mon Sep  7 09:40:06 2020: Completed generating ILP constraints
+Mon Sep  7 09:40:06 2020: Generating ILP constraints
+Mon Sep  7 09:40:06 2020: Completed generating ILP constraints
+Mon Sep  7 09:40:06 2020: Generating ILP constraints
+Mon Sep  7 09:40:06 2020: Completed generating ILP constraints
+Mon Sep  7 09:40:06 2020: Generating ILP constraints
+Mon Sep  7 09:40:06 2020: Completed generating ILP constraints
+Mon Sep  7 09:40:06 2020: Generating ILP constraints
+Mon Sep  7 09:40:06 2020: Completed generating ILP constraints
+Mon Sep  7 09:40:06 2020: Completed finding interactions
+Mon Sep  7 09:40:06 2020: Generating ILP constraints
+Mon Sep  7 09:40:06 2020: Completed generating ILP constraints
+Mon Sep  7 09:40:06 2020: Generating ILP constraints
+Mon Sep  7 09:40:06 2020: Completed generating ILP constraints
+Mon Sep  7 09:40:06 2020: Generating ILP constraints
+Mon Sep  7 09:40:06 2020: Completed generating ILP constraints
+Mon Sep  7 09:40:06 2020: Generating ILP constraints
+Mon Sep  7 09:40:06 2020: Completed generating ILP constraints
+Mon Sep  7 09:40:07 2020: Generating ILP constraints
+Mon Sep  7 09:40:07 2020: Completed generating ILP constraints
+Mon Sep  7 09:40:07 2020: Completed finding interactions
+Mon Sep  7 09:40:07 2020: Generating ILP constraints
+Mon Sep  7 09:40:07 2020: Completed generating ILP constraints
+Mon Sep  7 09:40:07 2020: Generating ILP constraints
+Mon Sep  7 09:40:07 2020: Completed generating ILP constraints
+Mon Sep  7 09:40:07 2020: Generating ILP constraints
+Mon Sep  7 09:40:07 2020: Completed generating ILP constraints
+Mon Sep  7 09:40:07 2020: Generating ILP constraints
+Mon Sep  7 09:40:07 2020: Completed generating ILP constraints
+Mon Sep  7 09:40:07 2020: Generating ILP constraints
+Mon Sep  7 09:40:07 2020: Completed generating ILP constraints
+Mon Sep  7 09:40:07 2020: Completed finding interactions
+Mon Sep  7 09:40:07 2020: Generating ILP constraints
+Mon Sep  7 09:40:07 2020: Completed generating ILP constraints
+Mon Sep  7 09:40:07 2020: Generating ILP constraints
+Mon Sep  7 09:40:07 2020: Completed generating ILP constraints
+Mon Sep  7 09:40:07 2020: Generating ILP constraints
+Mon Sep  7 09:40:07 2020: Completed generating ILP constraints
+Mon Sep  7 09:40:07 2020: Generating ILP constraints
+Mon Sep  7 09:40:07 2020: Completed generating ILP constraints
+Mon Sep  7 09:40:07 2020: Generating ILP constraints
+Mon Sep  7 09:40:07 2020: Completed generating ILP constraints
+Mon Sep  7 09:40:07 2020: Completed finding interactions
+Mon Sep  7 09:40:07 2020: Generating ILP constraints
+Mon Sep  7 09:40:07 2020: Completed generating ILP constraints
+Mon Sep  7 09:40:07 2020: Generating ILP constraints
+Mon Sep  7 09:40:07 2020: Completed generating ILP constraints
+Mon Sep  7 09:40:07 2020: Generating ILP constraints
+Mon Sep  7 09:40:07 2020: Completed generating ILP constraints
+Mon Sep  7 09:40:07 2020: Generating ILP constraints
+Mon Sep  7 09:40:07 2020: Completed generating ILP constraints
+Mon Sep  7 09:40:08 2020: Generating ILP constraints
+Mon Sep  7 09:40:08 2020: Completed generating ILP constraints
+Mon Sep  7 09:40:08 2020: Completed finding interactions
+Mon Sep  7 09:40:08 2020: Generating ILP constraints
+Mon Sep  7 09:40:08 2020: Completed generating ILP constraints
+Mon Sep  7 09:40:08 2020: Generating ILP constraints
+Mon Sep  7 09:40:08 2020: Completed generating ILP constraints
+Mon Sep  7 09:40:08 2020: Generating ILP constraints
+Mon Sep  7 09:40:08 2020: Completed generating ILP constraints
+Mon Sep  7 09:40:08 2020: Generating ILP constraints
+Mon Sep  7 09:40:08 2020: Completed generating ILP constraints
+Mon Sep  7 09:40:08 2020: Generating ILP constraints
+Mon Sep  7 09:40:08 2020: Completed generating ILP constraints
+Mon Sep  7 09:40:08 2020: Completed finding interactions
+Mon Sep  7 09:40:08 2020: Generating ILP constraints
+Mon Sep  7 09:40:08 2020: Completed generating ILP constraints
+Mon Sep  7 09:40:08 2020: Generating ILP constraints
+Mon Sep  7 09:40:08 2020: Completed generating ILP constraints
+Mon Sep  7 09:40:08 2020: Generating ILP constraints
+Mon Sep  7 09:40:08 2020: Completed generating ILP constraints
+Mon Sep  7 09:40:08 2020: Generating ILP constraints
+Mon Sep  7 09:40:08 2020: Completed generating ILP constraints
+Mon Sep  7 09:40:08 2020: Generating ILP constraints
+Mon Sep  7 09:40:08 2020: Completed generating ILP constraints
+Mon Sep  7 09:40:08 2020: Completed finding interactions
+Mon Sep  7 09:40:08 2020: Generating ILP constraints
+Mon Sep  7 09:40:08 2020: Completed generating ILP constraints
+Mon Sep  7 09:40:08 2020: Generating ILP constraints
+Mon Sep  7 09:40:08 2020: Completed generating ILP constraints
+Mon Sep  7 09:40:08 2020: Generating ILP constraints
+Mon Sep  7 09:40:08 2020: Completed generating ILP constraints
+Mon Sep  7 09:40:09 2020: Generating ILP constraints
+Mon Sep  7 09:40:09 2020: Completed generating ILP constraints
+Mon Sep  7 09:40:09 2020: Generating ILP constraints
+Mon Sep  7 09:40:09 2020: Completed generating ILP constraints
+Mon Sep  7 09:40:09 2020: Completed finding interactions
+Mon Sep  7 09:40:09 2020: Generating ILP constraints
+Mon Sep  7 09:40:09 2020: Completed generating ILP constraints
+Mon Sep  7 09:40:09 2020: Generating ILP constraints
+Mon Sep  7 09:40:09 2020: Completed generating ILP constraints
+Mon Sep  7 09:40:09 2020: Generating ILP constraints
+Mon Sep  7 09:40:09 2020: Completed generating ILP constraints
+Mon Sep  7 09:40:09 2020: Generating ILP constraints
+Mon Sep  7 09:40:09 2020: Completed generating ILP constraints
+Mon Sep  7 09:40:09 2020: Generating ILP constraints
+Mon Sep  7 09:40:09 2020: Completed generating ILP constraints
+Mon Sep  7 09:40:09 2020: Completed finding interactions
+Mon Sep  7 09:40:09 2020: Generating ILP constraints
+Mon Sep  7 09:40:09 2020: Completed generating ILP constraints
+Mon Sep  7 09:40:09 2020: Generating ILP constraints
+Mon Sep  7 09:40:09 2020: Completed generating ILP constraints
+Mon Sep  7 09:40:09 2020: Generating ILP constraints
+Mon Sep  7 09:40:09 2020: Completed generating ILP constraints
+Mon Sep  7 09:40:09 2020: Generating ILP constraints
+Mon Sep  7 09:40:09 2020: Completed generating ILP constraints
+Mon Sep  7 09:40:09 2020: Generating ILP constraints
+Mon Sep  7 09:40:09 2020: Completed generating ILP constraints
+Mon Sep  7 09:40:09 2020: Completed finding interactions
+Mon Sep  7 09:40:09 2020: Generating ILP constraints
+Mon Sep  7 09:40:09 2020: Completed generating ILP constraints
+Mon Sep  7 09:40:09 2020: Generating ILP constraints
+Mon Sep  7 09:40:09 2020: Completed generating ILP constraints
+Mon Sep  7 09:40:09 2020: Generating ILP constraints
+Mon Sep  7 09:40:09 2020: Completed generating ILP constraints
+Mon Sep  7 09:40:09 2020: Generating ILP constraints
+Mon Sep  7 09:40:09 2020: Completed generating ILP constraints
+Mon Sep  7 09:40:10 2020: Generating ILP constraints
+Mon Sep  7 09:40:10 2020: Completed generating ILP constraints
+Mon Sep  7 09:40:10 2020: Completed finding interactions
+Mon Sep  7 09:40:10 2020: Generating ILP constraints
+Mon Sep  7 09:40:10 2020: Completed generating ILP constraints
+Mon Sep  7 09:40:10 2020: Generating ILP constraints
+Mon Sep  7 09:40:10 2020: Completed generating ILP constraints
+Mon Sep  7 09:40:10 2020: Generating ILP constraints
+Mon Sep  7 09:40:10 2020: Completed generating ILP constraints
+Mon Sep  7 09:40:10 2020: Generating ILP constraints
+Mon Sep  7 09:40:10 2020: Completed generating ILP constraints
+Mon Sep  7 09:40:10 2020: Generating ILP constraints
+Mon Sep  7 09:40:10 2020: Completed generating ILP constraints
+Mon Sep  7 09:40:10 2020: Completed finding interactions
+Mon Sep  7 09:40:10 2020: Generating ILP constraints
+Mon Sep  7 09:40:10 2020: Completed generating ILP constraints
+Mon Sep  7 09:40:10 2020: Generating ILP constraints
+Mon Sep  7 09:40:10 2020: Completed generating ILP constraints
+Mon Sep  7 09:40:10 2020: Generating ILP constraints
+Mon Sep  7 09:40:10 2020: Completed generating ILP constraints
+Mon Sep  7 09:40:10 2020: Generating ILP constraints
+Mon Sep  7 09:40:10 2020: Completed generating ILP constraints
+Mon Sep  7 09:40:10 2020: Generating ILP constraints
+Mon Sep  7 09:40:10 2020: Completed generating ILP constraints
+Mon Sep  7 09:40:10 2020: Completed finding interactions
+Mon Sep  7 09:40:10 2020: Generating ILP constraints
+Mon Sep  7 09:40:10 2020: Completed generating ILP constraints
+Mon Sep  7 09:40:10 2020: Generating ILP constraints
+Mon Sep  7 09:40:10 2020: Completed generating ILP constraints
+Mon Sep  7 09:40:10 2020: Generating ILP constraints
+Mon Sep  7 09:40:10 2020: Completed generating ILP constraints
+Mon Sep  7 09:40:10 2020: Generating ILP constraints
+Mon Sep  7 09:40:10 2020: Completed generating ILP constraints
+Mon Sep  7 09:40:11 2020: Generating ILP constraints
+Mon Sep  7 09:40:11 2020: Completed generating ILP constraints
+Mon Sep  7 09:40:11 2020: Completed finding interactions
+Mon Sep  7 09:40:11 2020: Generating ILP constraints
+Mon Sep  7 09:40:11 2020: Completed generating ILP constraints
+Mon Sep  7 09:40:11 2020: Generating ILP constraints
+Mon Sep  7 09:40:11 2020: Completed generating ILP constraints
+Mon Sep  7 09:40:11 2020: Generating ILP constraints
+Mon Sep  7 09:40:11 2020: Completed generating ILP constraints
+Mon Sep  7 09:40:11 2020: Generating ILP constraints
+Mon Sep  7 09:40:11 2020: Completed generating ILP constraints
+Mon Sep  7 09:40:11 2020: Generating ILP constraints
+Mon Sep  7 09:40:11 2020: Completed generating ILP constraints
+Mon Sep  7 09:40:11 2020: Completed finding interactions
+Mon Sep  7 09:40:11 2020: Generating ILP constraints
+Mon Sep  7 09:40:11 2020: Completed generating ILP constraints
+Mon Sep  7 09:40:11 2020: Generating ILP constraints
+Mon Sep  7 09:40:11 2020: Completed generating ILP constraints
+Mon Sep  7 09:40:11 2020: Generating ILP constraints
+Mon Sep  7 09:40:11 2020: Completed generating ILP constraints
+Mon Sep  7 09:40:11 2020: Generating ILP constraints
+Mon Sep  7 09:40:11 2020: Completed generating ILP constraints
+Mon Sep  7 09:40:11 2020: Generating ILP constraints
+Mon Sep  7 09:40:11 2020: Completed generating ILP constraints
+Mon Sep  7 09:40:11 2020: Completed finding interactions
+Mon Sep  7 09:40:11 2020: Generating ILP constraints
+Mon Sep  7 09:40:11 2020: Completed generating ILP constraints
+Mon Sep  7 09:40:11 2020: Generating ILP constraints
+Mon Sep  7 09:40:11 2020: Completed generating ILP constraints
+Mon Sep  7 09:40:11 2020: Generating ILP constraints
+Mon Sep  7 09:40:11 2020: Completed generating ILP constraints
+Mon Sep  7 09:40:12 2020: Generating ILP constraints
+Mon Sep  7 09:40:12 2020: Completed generating ILP constraints
+Mon Sep  7 09:40:12 2020: Generating ILP constraints
+Mon Sep  7 09:40:12 2020: Completed generating ILP constraints
+Mon Sep  7 09:40:12 2020: Completed finding interactions
+Mon Sep  7 09:40:12 2020: Generating ILP constraints
+Mon Sep  7 09:40:12 2020: Completed generating ILP constraints
+Mon Sep  7 09:40:12 2020: Generating ILP constraints
+Mon Sep  7 09:40:12 2020: Completed generating ILP constraints
+Mon Sep  7 09:40:12 2020: Generating ILP constraints
+Mon Sep  7 09:40:12 2020: Completed generating ILP constraints
+Mon Sep  7 09:40:12 2020: Generating ILP constraints
+Mon Sep  7 09:40:12 2020: Completed generating ILP constraints
+Mon Sep  7 09:40:12 2020: Generating ILP constraints
+Mon Sep  7 09:40:12 2020: Completed generating ILP constraints
+Mon Sep  7 09:40:12 2020: Completed finding interactions
+Mon Sep  7 09:40:12 2020: Generating ILP constraints
+Mon Sep  7 09:40:12 2020: Completed generating ILP constraints
+Mon Sep  7 09:40:12 2020: Generating ILP constraints
+Mon Sep  7 09:40:12 2020: Completed generating ILP constraints
+Mon Sep  7 09:40:12 2020: Generating ILP constraints
+Mon Sep  7 09:40:12 2020: Completed generating ILP constraints
+Mon Sep  7 09:40:12 2020: Generating ILP constraints
+Mon Sep  7 09:40:12 2020: Completed generating ILP constraints
+Mon Sep  7 09:40:12 2020: Generating ILP constraints
+Mon Sep  7 09:40:12 2020: Completed generating ILP constraints
+Mon Sep  7 09:40:12 2020: Completed finding interactions
+Mon Sep  7 09:40:12 2020: Generating ILP constraints
+Mon Sep  7 09:40:12 2020: Completed generating ILP constraints
+Mon Sep  7 09:40:12 2020: Generating ILP constraints
+Mon Sep  7 09:40:12 2020: Completed generating ILP constraints
+Mon Sep  7 09:40:12 2020: Generating ILP constraints
+Mon Sep  7 09:40:12 2020: Completed generating ILP constraints
+Mon Sep  7 09:40:13 2020: Generating ILP constraints
+Mon Sep  7 09:40:13 2020: Completed generating ILP constraints
+Mon Sep  7 09:40:13 2020: Generating ILP constraints
+Mon Sep  7 09:40:13 2020: Completed generating ILP constraints
+Mon Sep  7 09:40:13 2020: Completed finding interactions
+Mon Sep  7 09:40:13 2020: Generating ILP constraints
+Mon Sep  7 09:40:13 2020: Completed generating ILP constraints
+Mon Sep  7 09:40:13 2020: Generating ILP constraints
+Mon Sep  7 09:40:13 2020: Completed generating ILP constraints
+Mon Sep  7 09:40:13 2020: Generating ILP constraints
+Mon Sep  7 09:40:13 2020: Completed generating ILP constraints
+Mon Sep  7 09:40:13 2020: Generating ILP constraints
+Mon Sep  7 09:40:13 2020: Completed generating ILP constraints
+Mon Sep  7 09:40:13 2020: Generating ILP constraints
+Mon Sep  7 09:40:13 2020: Completed generating ILP constraints
+Mon Sep  7 09:40:13 2020: Completed finding interactions
+Mon Sep  7 09:40:13 2020: Generating ILP constraints
+Mon Sep  7 09:40:13 2020: Completed generating ILP constraints
+Mon Sep  7 09:40:13 2020: Generating ILP constraints
+Mon Sep  7 09:40:13 2020: Completed generating ILP constraints
+Mon Sep  7 09:40:13 2020: Generating ILP constraints
+Mon Sep  7 09:40:13 2020: Completed generating ILP constraints
+Mon Sep  7 09:40:13 2020: Generating ILP constraints
+Mon Sep  7 09:40:13 2020: Completed generating ILP constraints
+Mon Sep  7 09:40:13 2020: Generating ILP constraints
+Mon Sep  7 09:40:13 2020: Completed generating ILP constraints
+Mon Sep  7 09:40:13 2020: Completed finding interactions
+Mon Sep  7 09:40:13 2020: Generating ILP constraints
+Mon Sep  7 09:40:13 2020: Completed generating ILP constraints
+Mon Sep  7 09:40:13 2020: Generating ILP constraints
+Mon Sep  7 09:40:13 2020: Completed generating ILP constraints
+Mon Sep  7 09:40:13 2020: Generating ILP constraints
+Mon Sep  7 09:40:13 2020: Completed generating ILP constraints
+Mon Sep  7 09:40:14 2020: Generating ILP constraints
+Mon Sep  7 09:40:14 2020: Completed generating ILP constraints
+Mon Sep  7 09:40:14 2020: Generating ILP constraints
+Mon Sep  7 09:40:14 2020: Completed generating ILP constraints
+Mon Sep  7 09:40:14 2020: Completed finding interactions
+Mon Sep  7 09:40:14 2020: Generating ILP constraints
+Mon Sep  7 09:40:14 2020: Completed generating ILP constraints
+Mon Sep  7 09:40:14 2020: Generating ILP constraints
+Mon Sep  7 09:40:14 2020: Completed generating ILP constraints
+Mon Sep  7 09:40:14 2020: Generating ILP constraints
+Mon Sep  7 09:40:14 2020: Completed generating ILP constraints
+Mon Sep  7 09:40:14 2020: Generating ILP constraints
+Mon Sep  7 09:40:14 2020: Completed generating ILP constraints
+Mon Sep  7 09:40:14 2020: Generating ILP constraints
+Mon Sep  7 09:40:14 2020: Completed generating ILP constraints
+Mon Sep  7 09:40:14 2020: Completed finding interactions
+Mon Sep  7 09:40:14 2020: Generating ILP constraints
+Mon Sep  7 09:40:14 2020: Completed generating ILP constraints
+Mon Sep  7 09:40:14 2020: Generating ILP constraints
+Mon Sep  7 09:40:14 2020: Completed generating ILP constraints
+Mon Sep  7 09:40:14 2020: Generating ILP constraints
+Mon Sep  7 09:40:14 2020: Completed generating ILP constraints
+Mon Sep  7 09:40:14 2020: Generating ILP constraints
+Mon Sep  7 09:40:14 2020: Completed generating ILP constraints
+Mon Sep  7 09:40:14 2020: Generating ILP constraints
+Mon Sep  7 09:40:14 2020: Completed generating ILP constraints
+Mon Sep  7 09:40:14 2020: Completed finding interactions
+Mon Sep  7 09:40:14 2020: Generating ILP constraints
+Mon Sep  7 09:40:14 2020: Completed generating ILP constraints
+Mon Sep  7 09:40:14 2020: Generating ILP constraints
+Mon Sep  7 09:40:14 2020: Completed generating ILP constraints
+Mon Sep  7 09:40:14 2020: Generating ILP constraints
+Mon Sep  7 09:40:14 2020: Completed generating ILP constraints
+Mon Sep  7 09:40:15 2020: Generating ILP constraints
+Mon Sep  7 09:40:15 2020: Completed generating ILP constraints
+Mon Sep  7 09:40:15 2020: Generating ILP constraints
+Mon Sep  7 09:40:15 2020: Completed generating ILP constraints
+Mon Sep  7 09:40:15 2020: Completed finding interactions
+Mon Sep  7 09:40:15 2020: Generating ILP constraints
+Mon Sep  7 09:40:15 2020: Completed generating ILP constraints
+Mon Sep  7 09:40:15 2020: Generating ILP constraints
+Mon Sep  7 09:40:15 2020: Completed generating ILP constraints
+Mon Sep  7 09:40:15 2020: Generating ILP constraints
+Mon Sep  7 09:40:15 2020: Completed generating ILP constraints
+Mon Sep  7 09:40:15 2020: Generating ILP constraints
+Mon Sep  7 09:40:15 2020: Completed generating ILP constraints
+Mon Sep  7 09:40:15 2020: Generating ILP constraints
+Mon Sep  7 09:40:15 2020: Completed generating ILP constraints
+Mon Sep  7 09:40:15 2020: Completed finding interactions
+Mon Sep  7 09:40:15 2020: Generating ILP constraints
+Mon Sep  7 09:40:15 2020: Completed generating ILP constraints
+Mon Sep  7 09:40:15 2020: Generating ILP constraints
+Mon Sep  7 09:40:15 2020: Completed generating ILP constraints
+Mon Sep  7 09:40:15 2020: Generating ILP constraints
+Mon Sep  7 09:40:15 2020: Completed generating ILP constraints
+Mon Sep  7 09:40:15 2020: Generating ILP constraints
+Mon Sep  7 09:40:15 2020: Completed generating ILP constraints
+Mon Sep  7 09:40:15 2020: Generating ILP constraints
+Mon Sep  7 09:40:15 2020: Completed generating ILP constraints

@@ -450,7 +450,7 @@ def QURE(workdir, base):
         Initial_Mapping = {}
         for node in G.nodes:
             assignment = config[str(node)]
-            Initial_Mapping[str(assignment)] = IBMQX_16_Melbourne_to_2xn[G.node[node]['name']]
+            Initial_Mapping[str(assignment)] = IBMQX_16_Melbourne_to_2xn[G.nodes[node]['name']]
 
         TMAP = Initial_Mapping.copy()
         identifier = 1
